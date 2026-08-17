@@ -1,0 +1,141 @@
+{
+  "nav": {
+    "brand": "Phebe Mansur",
+    "story": "Phebe's Story",
+    "actionPlan": "Hollister Action Plan",
+    "pillars": "Why Phebe",
+    "getInvolved": "Get Involved",
+    "toggleLang": "Español"
+  },
+  "hero": {
+    "title": "Protecting the Spirit of Goleta.<br>Listening to Every Neighborhood.",
+    "subtitle": "Old Town resident, small business owner, and community volunteer running for Goleta City Council, District 2.",
+    "ctaJoin": "Join Our Campaign",
+    "ctaSurvey": "Take Community Survey",
+    "ctaStory": "Read Phebe's Story"
+  },
+  "actionPlan": {
+    "title": "Fixing Hollister Avenue:<br>Common-Sense Solutions Now",
+    "subtitle": "Bypassing neighborhood gridlock, helping local businesses thrive, and putting practical safety first.<br><br>For more than 30 years, community members and business owners have spoken against narrowing Hollister Avenue. What was officially introduced as the Interim Hollister Avenue Striping Project was presented to residents as a temporary, flexible trial. However, after watching community members being dismissed without genuine dialogue and critical feedback brushed aside at the six-month review, many in our community feel demoralized and disillusioned—convinced city hall intended to make these damaging changes permanent all along.<br><br>The consequences of this top-down approach have been devastating for Old Town.",
+    "problemLabel": "The Problem",
+    "problemText": "Hollister traffic is diverted onto residential streets.<br><br>The number of accidents has increased.<br><br>Emergency response is delayed.<br><br>Small businesses continue to struggle to survive.",
+    "tabTurns": "Left-Hand Turns",
+    "tabBumps": "Removing Median Bumps",
+    "tabParking": "Parking Realignment",
+    "tabLanes": "Four Lanes & Bike Safety",
+    "fixTurnsTitle": "Left-Hand Turns",
+    "fixTurnsProblem": "Eliminating left-hand turns along Hollister Avenue creates severe customer inconvenience, actively discouraging shoppers from stopping at local Old Town businesses. Worse yet, the city showed clear favoritism: the only permitted left turns along the corridor are into city-owned property, the Goleta Union School District, and two corporate franchise businesses—leaving independent local merchants stranded and inaccessible.",
+    "fixTurnsSolution": "Immediately restore equal, accessible left-turn access for all local businesses and cross-streets, eliminating unfair city perks, reconnecting our neighborhood, and welcoming shoppers back into Old Town.",
+    "fixBumpsTitle": "Restoring Corridor Flow by Removing Median Bumps",
+    "fixBumpsProblem": "When the city installed non-traversable median safety bumps along Hollister Avenue, the goal was traffic calming. However, the real-world result has been severe corridor congestion and safety hazards for motorists and emergency services alike.",
+    "fixBumpsSolution": "By eliminating the rigid median barriers and restoring four 9-foot travel lanes, we can eliminate artificial bottlenecks and restore smooth, predictable traffic flow. Removing these physical obstructions gives drivers the flexibility needed to safely navigate turning vehicles, delivery trucks, and emergency responders without bringing the entire corridor to a standstill—all while keeping neighboring residential streets free from cut-through traffic.",
+    "fixParkingTitle": "Parking Realignment",
+    "fixParkingProblem": "Replacing traditional street parking with confusing back-in diagonal stalls created an unwelcoming environment that actively discourages shoppers and visitors. Back-in parking is inherently discriminatory against newer, inexperienced drivers and older motorists who find reversing into tight traffic stalls difficult or hazardous. Operationally, backing into a stall forces trailing vehicles to stop and wait, backing up corridor traffic—whereas traditional pull-in parking allows drivers to smoothly enter a spot without halting traffic flow, taking their time to safely wait for a clear gap before backing out when leaving.",
+    "fixParkingSolution": "Realign street parking back to intuitive, welcoming, pull-in diagonal spots—eliminating traffic backups, ensuring accessible parking for drivers of all ages and experience levels, and inviting visitors back into Old Town.",
+    "fixLanesTitle": "Four Lanes & Bike Safety",
+    "fixLanesProblem": "Narrowing Hollister Avenue down to two lanes created LA-style gridlock, while haphazard restriping compromised safety for motorists, delivery drivers, and cyclists alike. Surrounding narrow residential streets have suffered an influx of cut-through traffic and an uptick in accidents. Even though overall traffic volume along the corridor has declined, travel delays have actually increased. The economic fallout has been devastating: local merchants report revenue losses ranging from 15% to 70%, with zero relief or recovery following the completion of the roundabouts.",
+    "fixLanesSolution": "Restore four active travel lanes with 9' widths to clear gridlock, rebuild proper traffic capacity, and pull cut-through drivers off quiet neighborhood streets. Pair this with dedicated, well-marked bike safety infrastructure so motorists, delivery vehicles, and cyclists can safely and efficiently share the corridor. Begin regular parking enforcement."
+  },
+  "pillars": {
+    "title": "Why I'm Running",
+    "subtitle": "Goleta captured my heart the day I arrived. After working my way through college, staying here was an easy decision—and I’ve been a proud small business owner since 1992. I’m running to restore the spirit of our neighborhoods, give residents and businesses a real voice, and deliver leadership that puts our community first.",
+    "pillar1Title": "A Real Seat at the Table",
+    "pillar1Focus": "Ending top-down decision-making. Ensuring residents and small business owners are genuinely heard before policy changes are made.",
+    "pillar1Policy": "Key Policy: Support for City Council Term Limits to keep leadership fresh, responsive, and accountable.",
+    "pillar2Title": "Supporting Our Local Economy",
+    "pillar2Focus": "Protecting and strengthening the unique local small businesses that make Goleta thrive and residents depend on.",
+    "pillar2Policy": "Key Policy: Business License Fee Stabilization to offer local shops predictability, relief, and room to grow. Establish a Goleta Old Town Business Improvement District operated and managed by business owners.",
+    "pillar3Title": "Safety & Quality of Life",
+    "pillar3Focus": "Reduce grid-lock on Hollister Avenue. Keep cut-through traffic off residential streets, making walks to school and work safe, and preserving Old Town’s character.",
+    "pillar3Policy": "Immediately restore all <a href=\"#action-plan\" class=\"inline-tab-link\" data-target=\"tab-turns\">left-hand turns</a>, remove <a href=\"#action-plan\" class=\"inline-tab-link\" data-target=\"tab-bumps\">median safety bumps</a>, and restripe for <a href=\"#action-plan\" class=\"inline-tab-link\" data-target=\"tab-parking\">pull-in diagonal parking</a>. Create a <a href=\"#action-plan\" class=\"inline-tab-link\" data-target=\"tab-lanes\">balanced traffic plan for Hollister Avenue</a> to safely manage growth from three new Old Town housing developments, ensuring our city's most densely populated neighborhood maintains smooth vehicular flow and strong business access.",
+    "readStory": "Read Story & Impact &rarr;",
+    "photoCaption": "Readiness in action! Phebe participating in a CERT emergency response drill alongside our dedicated local firefighters. Stronger neighborhood safety starts with being prepared!"
+  },
+  "pillarsStories": {
+    "card1": {
+      "image": "./assets/images/090914_OTCA copy2.jpg",
+      "tag": "A Real Seat at the Table • Local Story",
+      "title": "Pine Avenue Tree Preservation",
+      "story": "<p>When residents on Pine Avenue learned that a planned city sidewalk project would strip away all the existing trees and vegetation along their street, they reached out feeling unheard and frustrated. Those plantings weren't just landscaping—they provided a vital windbreak, sound barrier, and privacy screen for families living along the corridor.</p><p>Instead of accepting top-down decision-making, I arranged an on-site walkthrough with the city planning engineer and affected neighbors so their voices could be heard directly. By bringing people together on the ground, the engineer saw the human impact, went back to the drafting table, and just a week later shared a revised design that preserved the existing trees while successfully adding the new sidewalk.</p><p class=\"font-semibold text-slate-900 border-l-4 border-red-500 pl-3 py-1 bg-slate-50\">This kind of collaborative responsiveness and respect for neighborhood feedback should be the normal operating standard at City Hall—not an anomaly.</p>"
+    },
+    "card2": {
+      "image": "./assets/images/CONCERT.jpg",
+      "tag": "Supporting Our Local Economy • Local Story",
+      "title": "Standing Up for Old Town Small Businesses",
+      "story": "<p>As co-founder of the Goleta Old Town Community Association, I know firsthand that local business owners understand best how to promote and grow our local economy. By hosting outdoor concerts, movie nights, tasting events, annual trick-or-treating, holiday parades, and neighborhood cleanups, we turned Old Town into the hottest place to do business. We experienced the power of advocating for safe crosswalks, but also the deep frustration when city hall pushed through the Hollister Avenue narrowing over business objections. Business owners and residents have proven they manage local needs best. I strongly support establishing a Business Improvement District to give our business community the freedom and autonomy to invest in and direct its own future.</p>"
+    },
+    "card3": {
+      "image": "./assets/images/safe_neighborhood_walk.png",
+      "tag": "Safety & Quality of Life • Local Story",
+      "title": "Protecting Neighborhood Streets & Walkable Paths",
+      "story": "<p>Safe, quiet residential streets are essential to Goleta's quality of life. Through over two decades of volunteer work—from planting trees with Goleta Valley Beautiful to serving on the City Public Tree Advisory Commission—I've focused on keeping our neighborhoods safe, green, and walkable.</p><p>We must ensure cut-through traffic stays on main corridors while maintaining clean, safe walkways for our kids walking to school and neighbors taking evening strolls.</p>"
+    }
+  },
+  "story": {
+    "title": "Meet Phebe Mansur",
+    "p1": "I arrived in Goleta as a UCSB student and immediately fell in love with the town's unique charm, vibrant neighborhoods, and friendly people.",
+    "p2": "Over the years, I've built my life and a local small business right here in Old Town. Today, I am proud to serve on the <strong>National Federation of Independent Businesses (NFIB) California State Leadership Council</strong> to advocate for small businesses across our region. Goleta isn't just where I work—it's my home, and its success is deeply personal to me.",
+    "p3": "For over two decades, I’ve dedicated myself to hands-on volunteer service across Goleta—whether serving on the City of Goleta Public Tree Advisory Commission, planting trees and organizing neighborhood cleanups with Goleta Valley Beautiful (where I’m honored to have served on the board and received the President’s Award, the Golden Shovel Award, and the Daughters of the American Revolution 2009 National Conservation Award), or supporting local youth through 11 years on the Dos Pueblos Little League board. As a co-founder of the Goleta Old Town Community Association, I’ve worked side-by-side with neighbors to care for our town and preserve its unique character.",
+    "p4": "After years of unofficially advocating for our residents and local businesses, running for City Council feels like the natural next step in my lifelong commitment to give back to the community that captured my heart.",
+    "mediaTitle": "Media & Press Coverage",
+    "mediaLink1": "\"Old Town Association Aims to Give Voice to Community\" (2014) — Noozhawk",
+    "mediaLink2": "\"Goleta Old Town Community Association Wins National Recognition\" (2018) — Edhat Santa Barbara",
+    "mediaLink3": "\"Taste & Sounds of Old Town Goleta\" (2018) — Noozhawk",
+    "mediaLink4": "\"Goleta Old Town Community Association & Boy Scouts Event\" (2018) — Keep Goleta the Good Land (Facebook)",
+    "mediaLink5": "\"Goleta to Consider New Property Tax for Old Town\" (2019) — Santa Barbara Independent",
+    "mediaLink6": "\"Goleta’s Ganga Land\" (2019) — Santa Barbara Independent",
+    "mediaLink7": "\"City of Goleta Public Record / Document Viewer\" (2019) — City of Goleta Granicus Archives",
+    "mediaLink8": "\"Old Town Goleta Business Owners Speak Out After Restriping Project\" (2024) — Noozhawk",
+    "mediaLink9": "\"City Satisfied with Old Town Goleta Restriping Project Data, But Some Businesses Are Not\" (2026) — Noozhawk"
+  },
+  "getInvolved": {
+    "title": "Get Involved Today",
+    "subtitle": "Join your neighbors in supporting Phebe and help build a stronger Goleta.",
+    "formName": "Full Name",
+    "formEmail": "Email Address",
+    "formZip": "Zip Code",
+    "checkSign": "Post a Yard Sign",
+    "checkVolunteer": "Volunteer to Walk with Phebe",
+    "checkEndorse": "Endorse Phebe Mansur",
+    "submitBtn": "Submit & Securely Join",
+    "successMsg": "Thank you! Your information has been encrypted and securely stored. Welcome to the campaign!",
+    "yardSignTitle": "Get Your Yard Sign",
+    "yardSignDesc": "Show your support in your neighborhood. Scan the code to track your sign delivery!"
+  },
+  "endorsements": {
+    "title": "Join Your Neighbors Supporting Phebe",
+    "quote1Text": "Phebe understands the daily challenges small business owners face on Hollister Avenue. She has my vote.",
+    "quote1Author": "— Gabriel S., Old Town Business Owner",
+    "quote2Text": "For years, Phebe has shown up for Goleta as a volunteer. She listens, she cares, and she acts.",
+    "quote2Author": "— Grace W., 20-Year Resident",
+    "quote3Text": "We need someone on the council who puts common-sense local issues ahead of politics. Phebe is that person.",
+    "quote3Author": "— David K., Community Leader"
+  },
+  "footer": {
+    "compliance": "Paid for by Phebe Mansur for Goleta City Council 2026. FPPC ID pending.",
+    "copyright": "© 2026 Phebe Mansur for City Council. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "license": "License Metadata"
+  },
+  "privacy": {
+    "title": "Campaign Privacy Policy",
+    "intro": "Your privacy is a core priority of this campaign. This policy outlines our secure data handling procedures.",
+    "s1Title": "1. Data Collection Transparency",
+    "s1Text": "We collect personal details including names, email addresses, zip codes, and connection IP addresses when you interact with forms or request campaign materials.",
+    "s2Title": "2. Purpose of Collection",
+    "s2Text": "Collected details are used strictly for local campaign communication, coordinating volunteer efforts, managing yard sign distributions, and verifying public endorsements.",
+    "s3Title": "3. Application-Layer Encryption",
+    "s3Text": "Consistent with local security protocols, all voter Personally Identifiable Information (PII) is encrypted at the application layer using Web Crypto AES-GCM local cryptography before transmission over networks to ensure voter security."
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "intro": "Welcome to Phebemansur.com. By browsing our website, you agree to comply with and be bound by the following terms.",
+    "s1Title": "1. Permitted Use",
+    "s1Text": "This website is established to share information about Phebe Mansur's campaign for Goleta City Council and to coordinate volunteer operations. Users agree to use it only for civic engagement purposes.",
+    "s2Title": "2. Digital Assets License",
+    "s2Text": "All unique campaign photos, styling systems, and text modules are protected by campaign licensing. Verification hash signatures are traceable through our footer's License Metadata interface.",
+    "s3Title": "3. Voter Data Privacy",
+    "s3Text": "Voters contributing coordinates or signups agree to have their data stored securely under our application-layer encryption system. Users agree not to submit false information."
+  }
+}

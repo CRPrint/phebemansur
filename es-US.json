@@ -1,0 +1,141 @@
+{
+  "nav": {
+    "brand": "Phebe Mansur",
+    "story": "Historia de Phebe",
+    "actionPlan": "Plan de Hollister",
+    "pillars": "Por Qué Phebe",
+    "getInvolved": "Participar",
+    "toggleLang": "English"
+  },
+  "hero": {
+    "title": "Protegiendo el Espíritu de Goleta.<br>Escuchando a Cada Vecindario.",
+    "subtitle": "Residente de Old Town, propietaria de un pequeño negocio y voluntaria comunitaria que se postula para el Concejo Municipal de Goleta, Distrito 2.",
+    "ctaJoin": "Únete a Nuestra Campaña",
+    "ctaSurvey": "Responder Encuesta Comunitaria",
+    "ctaStory": "Leer la Historia de Phebe"
+  },
+  "actionPlan": {
+    "title": "Arreglando Hollister Avenue:<br>Soluciones de Sentido Común Ahora",
+    "subtitle": "Evitando el embotellamiento en los vecindarios, ayudando a prosperar a los negocios locales y priorizando la seguridad práctica.<br><br>Durante más de 30 años, los miembros de la comunidad y los propietarios de negocios se han manifestado en contra del estrechamiento de Hollister Avenue. Lo que se introdujo oficialmente como el Proyecto Interino de Rayado de Hollister Avenue se presentó a los residentes como una prueba temporal y flexible. Sin embargo, después de ver cómo se ignoraba a los miembros de la comunidad sin un diálogo genuino y cómo se descartaban sus comentarios críticos en la revisión de los seis meses, muchos en nuestra comunidad se sienten desmoralizados y desilusionados, convencidos de que el ayuntamiento tuvo la intención de hacer permanentes estos cambios perjudiciales desde el principio.<br><br>Las consecuencias de este enfoque vertical han sido devastadoras para Old Town.",
+    "problemLabel": "El Problema",
+    "problemText": "El tráfico de Hollister se desvía hacia las calles residenciales.<br><br>El número de accidentes ha aumentado.<br><br>La respuesta de emergencia se retrasa.<br><br>Las pequeñas empresas continúan luchando por sobrevivir.",
+    "tabTurns": "Giros a la Izquierda",
+    "tabBumps": "Eliminación de Topes en la Mediana",
+    "tabParking": "Realineación de Estacionamiento",
+    "tabLanes": "Cuatro Carriles y Seguridad Ciclista",
+    "fixTurnsTitle": "Giros a la Izquierda",
+    "fixTurnsProblem": "Eliminar los giros a la izquierda en Hollister Avenue crea un grave inconveniente para los clientes, desalentando activamente a los compradores de detenerse en los negocios locales de Old Town. Peor aún, la ciudad mostró un claro favoritismo: los únicos giros a la izquierda permitidos en el corredor son hacia propiedades de la ciudad, el Distrito Escolar de Goleta Union y dos franquicias corporativas, dejando a los comerciantes locales independientes aislados e inaccesibles.",
+    "fixTurnsSolution": "Restaurar de inmediato el acceso equitativo y accesible para girar a la izquierda para todos los negocios locales y calles transversales, eliminando privilegios injustos de la ciudad, reconectando nuestro vecindario y dando la bienvenida nuevamente a los compradores a Old Town.",
+    "fixBumpsTitle": "Restaurar el Flujo del Corredor Eliminando los Topes de la Mediana",
+    "fixBumpsProblem": "Cuando la ciudad instaló los topes de seguridad no transitables en la mediana a lo largo de Hollister Avenue, el objetivo era calmar el tráfico. Sin embargo, el resultado en el mundo real ha sido una congestión severa del corredor y peligros de seguridad tanto para los automovilistas como para los servicios de emergencia.",
+    "fixBumpsSolution": "Al eliminar las barreras rígidas de la mediana y restaurar cuatro carriles de circulación de 9 pies, podemos eliminar los cuellos de botella artificiales y restaurar un flujo de tráfico fluido y predecible. La eliminación de estas obstrucciones físicas brinda a los conductores la flexibilidad necesaria para navegar de manera segura con vehículos que giran, camiones de reparto y vehículos de emergencia sin detener todo el corredor, todo mientras mantenemos las calles residenciales vecinas libres de tráfico de paso.",
+    "fixParkingTitle": "Realineación de Estacionamiento",
+    "fixParkingProblem": "Reemplazar el estacionamiento tradicional en la calle con confusos puestos diagonales de reversa creó un ambiente poco acogedor que desalienta activamente a los compradores y visitantes. El estacionamiento en reversa es inherentemente discriminatorio contra los conductores nuevos e inexpertos y los automovilistas de mayor edad que encuentran difícil o peligroso dar marcha atrás en espacios de tráfico reducidos. Operativamente, dar marcha atrás en un espacio obliga a los vehículos que lo siguen a detenerse y esperar, lo que atasca el tráfico del corredor, mientras que el estacionamiento tradicional de entrada directa permite a los conductores ingresar suavemente a un espacio sin detener el flujo del tráfico, tomándose su tiempo para esperar de manera segura un espacio libre antes de dar marcha atrás al salir.",
+    "fixParkingSolution": "Realinear el estacionamiento en la calle nuevamente a espacios diagonales tradicionales e intuitivos de entrada directa, eliminando los atascos de tráfico, garantizando un estacionamiento accesible para conductores de todas las edades y niveles de experiencia, e invitando a los visitantes a regresar a Old Town.",
+    "fixLanesTitle": "Cuatro Carriles y Seguridad Ciclista",
+    "fixLanesProblem": "Reducir Hollister Avenue a dos carriles creó embotellamientos al estilo de Los Ángeles, mientras que el trazado desordenado de las calles comprometió la seguridad de conductores, repartidores y ciclistas por igual. Las calles residenciales estrechas circundantes han sufrido una afluencia de tráfico de atajo y un aumento de los accidentes. Aunque el volumen general de tráfico a lo largo del corredor ha disminuido, los retrasos en los viajes han aumentado. El impacto económico ha sido devastador: los comerciantes locales informan pérdidas de ingresos que oscilan entre el 15% y el 70%, con cero alivio o recuperación tras la finalización de las rotondas.",
+    "fixLanesSolution": "Restaurar cuatro carriles de circulación activos con anchos de 9 pies para despejar los embotellamientos, reconstruir la capacidad de tráfico adecuada y desviar a los conductores de paso fuera de las calles tranquilas del vecindario. Combinar esto con infraestructura ciclista dedicada y bien señalizada para que automovilistas, vehículos de reparto y ciclistas puedan compartir el corredor de manera segura y eficiente. Iniciar la aplicación regular de las normas de estacionamiento."
+  },
+  "pillars": {
+    "title": "Por Qué Me Postulo",
+    "subtitle": "Goleta capturó mi corazón el día que llegué. Después de trabajar para costear mis estudios universitarios, quedarme aquí fue una decisión fácil, y he sido la orgullosa propietaria de un pequeño negocio desde 1992. Me postulo para restaurar el espíritu de nuestros vecindarios, dar a los residentes y a las empresas una voz real y ofrecer un liderazgo que priorice a nuestra comunidad.",
+    "pillar1Title": "Un Asiento Real en la Mesa",
+    "pillar1Focus": "Terminar con la toma de decisiones vertical. Asegurar que los residentes y dueños de pequeños negocios sean verdaderamente escuchados antes de realizar cambios de política.",
+    "pillar1Policy": "Política Clave: Apoyo a los Límites de Mandato en el Concejo Municipal para mantener un liderazgo fresco, receptivo y responsable.",
+    "pillar2Title": "Apoyando Nuestra Economía Local",
+    "pillar2Focus": "Proteger y fortalecer los pequeños negocios locales únicos de los que dependen los residentes y que hacen que Goleta prospere.",
+    "pillar2Policy": "Política Clave: Estabilización de Tarifas de Licencias Comerciales para ofrecer a las tiendas locales previsibilidad, alivio y espacio para crecer. Establecer un Distrito de Mejoramiento Comercial de Goleta Old Town operado y administrado por dueños de negocios.",
+    "pillar3Title": "Seguridad y Calidad de Vida",
+    "pillar3Focus": "Reducir el embotellamiento en Hollister Avenue. Mantener el tráfico de atajo fuera de las calles residenciales, hacer que las caminatas al trabajo y a la escuela sean seguras y preservar el carácter de Old Town.",
+    "pillar3Policy": "Restaurar inmediatamente todos los <a href=\"#action-plan\" class=\"inline-tab-link\" data-target=\"tab-turns\">giros a la izquierda</a>, retirar los <a href=\"#action-plan\" class=\"inline-tab-link\" data-target=\"tab-bumps\">topes de seguridad de la mediana</a> y volver a trazar para el <a href=\"#action-plan\" class=\"inline-tab-link\" data-target=\"tab-parking\">estacionamiento diagonal de frente</a>. Crear un <a href=\"#action-plan\" class=\"inline-tab-link\" data-target=\"tab-lanes\">plan de tráfico equilibrado para Hollister Avenue</a> para gestionar de manera segura el crecimiento de tres nuevos desarrollos habitacionales en Old Town, garantizando que el vecindario más densamente poblado de nuestra ciudad mantenga un flujo vehicular fluido y un fuerte acceso comercial.",
+    "readStory": "Leer Historia e Impacto &rarr;",
+    "photoCaption": "¡Preparación en acción! Phebe participando en un simulacro de respuesta a emergencias CERT junto a nuestros dedicados bomberos locales. ¡Una seguridad vecinal más fuerte comienza con estar preparados!"
+  },
+  "pillarsStories": {
+    "card1": {
+      "image": "./assets/images/090914_OTCA copy2.jpg",
+      "tag": "Un Asiento Real en la Mesa • Historia Local",
+      "title": "Preservación de Árboles en Pine Avenue",
+      "story": "<p>Cuando los residentes de Pine Avenue se enteraron de que un proyecto planificado de aceras de la ciudad eliminaría todos los árboles y la vegetación existentes a lo largo de su calle, se comunicaron sintiéndose no escuchados y frustrados. Esas plantaciones no eran solo paisajismo; proporcionaban un cortavientos vital, una barrera de sonido y una pantalla de privacidad para las familias que vivían a lo largo del corredor.</p><p>En lugar de aceptar una toma de decisiones de arriba hacia abajo, organicé un recorrido en el lugar con el ingeniero de planificación de la ciudad y los vecinos afectados para que sus voces pudieran escucharse directamente. Al reunir a la gente en el terreno, el ingeniero vio el impacto humano, regresó a la mesa de dibujo y, solo una semana después, compartió un diseño revisado que conservaba los árboles existentes mientras agregaba con éxito la nueva acera.</p><p class=\"font-semibold text-slate-900 border-l-4 border-red-500 pl-3 py-1 bg-slate-50\">Este tipo de capacidad de respuesta colaborativa y respeto por los comentarios del vecindario debería ser la norma de funcionamiento habitual en el Ayuntamiento, no una anomalía.</p>"
+    },
+    "card2": {
+      "image": "./assets/images/CONCERT.jpg",
+      "tag": "Apoyando Nuestra Economía Local • Historia Local",
+      "title": "Defendiendo a las Pequeñas Empresas de Old Town",
+      "story": "<p>Como cofundadora de la Asociación Comunitaria de Goleta Old Town, sé de primera mano que los dueños de negocios locales son quienes mejor entienden cómo promover y hacer crecer nuestra economía local. Al organizar conciertos al aire libre, noches de cine, eventos de degustación, el dulce o truco anual, desfiles festivos y limpiezas de vecindarios, convertimos a Old Town en el lugar más popular para hacer negocios. Experimentamos el poder de abogar por cruces peatonales seguros, pero también la profunda frustración cuando el ayuntamiento impuso el estrechamiento de Hollister Avenue por encima de las objeciones de los negocios. Los dueños de negocios y los residentes han demostrado que manejan mejor las necesidades locales. Apoyo firmemente la creación de un Distrito de Mejoramiento Comercial para brindar a nuestra comunidad empresarial la libertad y autonomía para invertir y dirigir su propio futuro.</p>"
+    },
+    "card3": {
+      "image": "./assets/images/safe_neighborhood_walk.png",
+      "tag": "Seguridad y Calidad de Vida • Historia Local",
+      "title": "Protegiendo las Calles Vecinales y Caminos Peatonales",
+      "story": "<p>Las calles residenciales seguras y tranquilas son esenciales para la calidad de vida de Goleta. A través de más de dos décadas de trabajo voluntario, desde plantar árboles con Goleta Valley Beautiful hasta servir en la Comisión Asesora de Árboles Públicos de la Ciudad, me he enfocado en mantener nuestros vecindarios seguros, verdes y transitables.</p><p>Debemos asegurar que el tráfico de paso se mantenga en los corredores principales mientras mantenemos caminos limpios y seguros para nuestros niños que caminan a la escuela y los vecinos que toman paseos nocturnos.</p>"
+    }
+  },
+  "story": {
+    "title": "Conoce a Phebe Mansur",
+    "p1": "Llegué a Goleta como estudiante de UCSB e inmediatamente me enamoré del encanto único de la ciudad, sus vecindarios vibrantes y su gente amigable.",
+    "p2": "A lo largo de los años, he construido mi vida y un pequeño negocio local aquí mismo en Old Town. Hoy, me enorgullece formar parte del <strong>Consejo de Liderazgo del Estado de California de la Federación Nacional de Empresas Independientes (NFIB, por sus siglas en inglés)</strong> para abogar por las pequeñas empresas en toda nuestra región. Goleta no es solo donde trabajo; es mi hogar, y su éxito es profundamente personal para mí.",
+    "p3": "Durante más de dos décadas, me he dedicado al servicio voluntario práctico en todo Goleta, ya sea sirviendo en la Comisión Asesora de Árboles Públicos de la Ciudad de Goleta, plantando árboles y organizando limpiezas de vecindarios con Goleta Valley Beautiful (donde tengo el honor de haber servido en la junta directiva y haber recibido el Premio del Presidente, el Premio Golden Shovel y el Premio Nacional de Conservación 2009 de las Hijas de la Revolución Americana), o apoyando a la juventud local a través de 11 años en la junta directiva de Dos Pueblos Little League. Como cofundadora de la Asociación Comunitaria de Goleta Old Town, he trabajado codo a codo con los vecinos para cuidar de nuestra ciudad y preservar su carácter único.",
+    "p4": "Después de años de abogar extraoficialmente por nuestros residentes y negocios locales, postularme para el Concejo Municipal se siente como el siguiente paso natural en mi compromiso de toda la vida de retribuir a la comunidad que capturó mi corazón.",
+    "mediaTitle": "Cobertura de Prensa y Medios",
+    "mediaLink1": "\"La Asociación de Old Town busca dar voz a la comunidad\" (2014) — Noozhawk",
+    "mediaLink2": "\"La Asociación Comunitaria de Goleta Old Town gana reconocimiento nacional\" (2018) — Edhat Santa Barbara",
+    "mediaLink3": "\"Sabores y Sonidos de Old Town Goleta\" (2018) — Noozhawk",
+    "mediaLink4": "\"Evento de la Asociación Comunitaria de Goleta Old Town y los Boy Scouts\" (2018) — Keep Goleta the Good Land (Facebook)",
+    "mediaLink5": "\"Goleta considerará un nuevo impuesto a la propiedad para Old Town\" (2019) — Santa Barbara Independent",
+    "mediaLink6": "\"Ganga Land de Goleta\" (2019) — Santa Barbara Independent",
+    "mediaLink7": "\"Registro Público de la Ciudad de Goleta / Visor de Documentos\" (2019) — Archivos Granicus de la Ciudad de Goleta",
+    "mediaLink8": "\"Comerciantes de Old Town Goleta se pronuncian tras el proyecto de cambio de carriles\" (2024) — Noozhawk",
+    "mediaLink9": "\"Ciudad satisfecha con los datos del proyecto de cambio de carriles en Old Town Goleta, pero algunos comercios no lo están\" (2026) — Noozhawk"
+  },
+  "getInvolved": {
+    "title": "Participe Hoy",
+    "subtitle": "Únase a sus vecinos para apoyar a Phebe y ayudar a construir una Goleta más fuerte.",
+    "formName": "Nombre Completo",
+    "formEmail": "Dirección de Correo Electrónico",
+    "formZip": "Código Postal",
+    "checkSign": "Colocar un Letrero en Mi Jardín",
+    "checkVolunteer": "Ser Voluntario para Caminar con Phebe",
+    "checkEndorse": "Respaldar a Phebe Mansur",
+    "submitBtn": "Enviar y Unirse de Forma Segura",
+    "successMsg": "¡Gracias! Su información ha sido cifrada y almacenada de forma segura. ¡Bienvenido a la campaña!",
+    "yardSignTitle": "Obtenga Su Letrero de Jardín",
+    "yardSignDesc": "Muestre su apoyo en su vecindario. ¡Escanee el código para rastrear la entrega de su letrero!"
+  },
+  "endorsements": {
+    "title": "Únase a los Vecinos que Apoyan a Phebe",
+    "quote1Text": "Phebe comprende los desafíos diarios que enfrentan los dueños de pequeños negocios en Hollister Avenue. Ella tiene mi voto.",
+    "quote1Author": "— Gabriel S., Dueño de Negocio en Old Town",
+    "quote2Text": "Durante años, Phebe se ha presentado para ayudar a Goleta como voluntaria. Ella escucha, se preocupa y actúa.",
+    "quote2Author": "— Grace W., Residente de hace 20 Años",
+    "quote3Text": "Necesitamos a alguien en el concejo municipal que ponga los problemas locales de sentido común por encima de la política. Phebe es esa persona.",
+    "quote3Author": "— David K., Líder Comunitario"
+  },
+  "footer": {
+    "compliance": "Pagado por Phebe Mansur para el Concejo Municipal de Goleta 2026. FPPC ID pendiente.",
+    "copyright": "© 2026 Phebe Mansur para el Concejo Municipal. Todos los derechos reservados.",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "license": "Metadatos de Licencia"
+  },
+  "privacy": {
+    "title": "Política de Privacidad de la Campaña",
+    "intro": "Su privacidad es una prioridad central de esta campaña. Esta política detalla nuestros procedimientos seguros para el manejo de datos.",
+    "s1Title": "1. Transparencia en la Recopilación de Datos",
+    "s1Text": "Recopilamos detalles personales, incluyendo nombres, direcciones de correo electrónico, códigos postales y direcciones IP de conexión, cuando interactúa con formularios o solicita materiales de campaña.",
+    "s2Title": "2. Propósito de la Recopilación",
+    "s2Text": "Los detalles recopilados se utilizan estrictamente para la comunicación de la campaña local, la coordinación de esfuerzos de voluntarios, la gestión de la distribución de letreros en jardines y la verificación de respaldos públicos.",
+    "s3Title": "3. Cifrado a Nivel de Aplicación",
+    "s3Text": "De acuerdo con los protocolos de seguridad locales, toda la Información de Identificación Personal (PII) de los votantes se cifra a nivel de aplicación utilizando la criptografía local Web Crypto AES-GCM antes de su transmisión a través de las redes para garantizar la seguridad de los votantes."
+  },
+  "terms": {
+    "title": "Términos de Servicio",
+    "intro": "Bienvenido a Phebemansur.com. Al navegar por nuestro sitio web, acepta cumplir y estar sujeto a los siguientes términos.",
+    "s1Title": "1. Uso Permitido",
+    "s1Text": "Este sitio web se establece para compartir información sobre la campaña de Phebe Mansur para el Concejo Municipal de Goleta y coordinar las operaciones de voluntarios. Los usuarios aceptan utilizarlo únicamente con fines de participación cívica.",
+    "s2Title": "2. Licencia de Activos Digitales",
+    "s2Text": "Todos los activos de fotos únicos de la campaña, sistemas de estilo y módulos de texto están protegidos por licencias de campaña. Las firmas hash de verificación se pueden rastrear a través de la interfaz de Metadatos de Licencia de nuestro pie de página.",
+    "s3Title": "3. Privacidad de los Datos de Votantes",
+    "s3Text": "Los votantes que proporcionan coordenadas o registros aceptan que sus datos se almacenen de forma segura bajo nuestro sistema de cifrado a nivel de aplicación. Los usuarios aceptan no enviar información falsa."
+  }
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terms of Service | Phebe Mansur for Goleta City Council</title>
+  <meta name="description" content="Read the official campaign Terms of Service for Phebe Mansur for Goleta City Council campaign website.">
+  <meta name="ai-context" content="Campaign terms of service page detailing allowed civic use and asset licensing validations.">
+  
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <div class="header-wrapper">
+    <header class="header container">
+      <a href="./index.html" class="logo" aria-label="Phebe Mansur Campaign Logo">
+        <span>PHEBE MANSUR</span><span class="logo-accent">.COM</span>
+      </a>
+      
+      <nav id="nav-menu-container" aria-label="Main Navigation">
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="./index.html#story" class="nav-link" data-translate="nav.story">Phebe's Story</a></li>
+          <li><a href="./index.html#action-plan" class="nav-link" data-translate="nav.actionPlan">Hollister Action Plan</a></li>
+          <li><a href="./index.html#pillars" class="nav-link" data-translate="nav.pillars">Why Phebe</a></li>
+          <li><a href="./index.html#get-involved" class="nav-link" data-translate="nav.getInvolved">Get Involved</a></li>
+          <li>
+            <button id="lang-toggle" class="btn btn-outline" style="min-height: 40px; padding: 0.25rem 1rem;" data-translate="nav.toggleLang" aria-label="Switch Language">
+              Español
+            </button>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle Menu" aria-expanded="false" aria-controls="nav-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+  </div>
+
+  <!-- Content Section -->
+  <main class="bg-light" style="padding-top: var(--spacing-lg); padding-bottom: var(--spacing-xl);">
+    <article class="container" style="max-width: 800px; display: flex; flex-direction: column; gap: var(--spacing-md);">
+      <h1 data-translate="terms.title" style="color: var(--brand-secondary); font-size: clamp(2rem, 4vw, 2.75rem);">Terms of Service</h1>
+      
+      <p data-translate="terms.intro" class="hero-subtitle" style="margin-bottom: var(--spacing-xs);">Welcome to Phebemansur.com. By browsing our website, you agree to comply with and be bound by the following terms.</p>
+      
+      <div style="display: flex; flex-direction: column; gap: var(--spacing-sm);">
+        <h2 data-translate="terms.s1Title" style="font-size: 1.35rem; color: var(--brand-primary);">1. Permitted Use</h2>
+        <p data-translate="terms.s1Text" style="color: var(--text-secondary);">This website is established to share information about Phebe Mansur's campaign for Goleta City Council and to coordinate volunteer operations. Users agree to use it only for civic engagement purposes.</p>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: var(--spacing-sm);">
+        <h2 data-translate="terms.s2Title" style="font-size: 1.35rem; color: var(--brand-primary);">2. Digital Assets License</h2>
+        <p data-translate="terms.s2Text" style="color: var(--text-secondary);">All unique campaign photos, styling systems, and text modules are protected by campaign licensing. Verification hash signatures are traceable through our footer's License Metadata interface.</p>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: var(--spacing-sm);">
+        <h2 data-translate="terms.s3Title" style="font-size: 1.35rem; color: var(--brand-primary);">3. Voter Data Privacy</h2>
+        <p data-translate="terms.s3Text" style="color: var(--text-secondary);">Voters contributing coordinates or signups agree to have their data stored securely under our application-layer encryption system. Users agree not to submit false information.</p>
+      </div>
+      
+      <div style="margin-top: var(--spacing-md); padding-top: var(--spacing-sm); border-top: 1px solid var(--border-color);">
+        <a href="./index.html" class="btn btn-primary" style="align-self: flex-start;">&larr; Back to Main Site</a>
+      </div>
+    </article>
+  </main>
+
+  <!-- Standardized Footer -->
+  <footer class="footer-wrapper">
+    <div class="container footer-content">
+      <div class="compliance-box" data-translate="footer.compliance">
+        Paid for by Phebe Mansur for Goleta City Council 2026. FPPC ID pending.
+      </div>
+      
+      <ul class="footer-links">
+        <li class="footer-link-item"><a href="./privacy-policy.html" data-translate="footer.privacy">Privacy Policy</a></li>
+        <li class="footer-link-item"><a href="./terms-of-service.html" data-translate="footer.terms">Terms of Service</a></li>
+        <li class="footer-link-item">
+          <button id="open-license-modal" data-translate="footer.license" aria-haspopup="dialog">
+            License Metadata
+          </button>
+        </li>
+      </ul>
+
+      <div class="footer-copyright" data-translate="footer.copyright">
+        © 2026 Phebe Mansur for City Council. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Licensing Modal (Rule 10 & 14 LicenseMetadata) -->
+  <div class="modal-overlay" id="license-modal" role="dialog" aria-labelledby="modal-title" aria-modal="true">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 id="modal-title">Digital Asset License Metadata</h3>
+        <button class="modal-close-btn" id="close-license-modal" aria-label="Close modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p>This digital application, its source modules, styling tokens, and unique campaign media assets are licensed under campaign guidelines and audited using the following digital verification hash:</p>
+        
+        <div>
+          <div class="metadata-label">Asset Identifier (UUID)</div>
+          <div class="metadata-field" id="license-asset-id"></div>
+        </div>
+
+        <div>
+          <div class="metadata-label">Owner Identifier</div>
+          <div class="metadata-field" id="license-owner-id"></div>
+        </div>
+
+        <div>
+          <div class="metadata-label">Verification Signature (SHA-256)</div>
+          <div class="metadata-field" id="license-signature"></div>
+        </div>
+        
+        <p style="font-size: 0.8rem; color: var(--text-secondary); text-align: center; margin-top: 8px;">
+          Verification complies with Rule 11 Licensing Protocol.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="./js/app.js"></script>
+</body>
+</html>
