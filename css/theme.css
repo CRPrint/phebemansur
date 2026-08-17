@@ -1,0 +1,102 @@
+/* Theme and Design System Variables */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap');
+
+:root {
+  /* Typography Tokens */
+  --font-primary: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-secondary: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-heading: var(--font-primary);
+  --font-body: var(--font-secondary);
+
+  /* Color Tokens - Grounded Civic Palette (Terracotta & Ocean Navy) */
+  --brand-primary: hsl(14, 65%, 47%);            /* Terracotta clay */
+  --brand-primary-hover: hsl(14, 65%, 38%);
+  --brand-primary-light: hsl(14, 100%, 96%);
+  
+  --brand-secondary: hsl(212, 70%, 25%);          /* Deep ocean blue */
+  --brand-secondary-hover: hsl(212, 70%, 18%);
+  --brand-secondary-light: hsl(212, 100%, 96%);
+  
+  --bg-primary: hsl(30, 40%, 98%);                /* Creamy off-white */
+  --bg-secondary: hsl(30, 25%, 93%);              /* Warm coastal sand */
+  --bg-card: hsl(0, 0%, 100%);                    /* Clean solid white */
+  --bg-dark: hsl(212, 70%, 12%);                  /* Dark navy for footer/nav */
+  --bg-modal-overlay: rgba(15, 23, 42, 0.75);     /* Semi-transparent dark overlay */
+  
+  --text-primary: hsl(212, 50%, 12%);             /* High-contrast charcoal */
+  --text-secondary: hsl(212, 16%, 38%);           /* Muted body text */
+  --text-light: hsl(0, 0%, 100%);                 /* Clean white text */
+  --text-accent: var(--brand-primary);
+  
+  --border-color: hsl(212, 15%, 88%);
+  --border-focus: var(--brand-primary);
+  --success-color: hsl(142, 70%, 29%);            /* Darker success green for contrast */
+  --error-color: hsl(0, 72%, 40%);                /* Warning red */
+  
+  /* Touch target sizes */
+  --touch-target-min: 48px;
+  
+  /* Fluid Spacing Scale */
+  --spacing-xs: clamp(0.5rem, 1vw, 0.75rem);
+  --spacing-sm: clamp(0.75rem, 1.5vw, 1.25rem);
+  --spacing-md: clamp(1.25rem, 2.5vw, 2rem);
+  --spacing-lg: clamp(2rem, 4vw, 3.5rem);
+  --spacing-xl: clamp(3.5rem, 7vw, 6rem);
+  
+  /* Layout Dimensions */
+  --container-max-width: 1200px;
+  --header-height: 80px;
+  
+  /* Borders & Shadows */
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 16px;
+  --border-radius-round: 9999px;
+  
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.1);
+  --shadow-md: 0 4px 12px rgba(15, 23, 42, 0.08);
+  --shadow-lg: 0 12px 24px rgba(15, 23, 42, 0.12);
+  
+  /* Transitions */
+  --transition-fast: 0.15s ease;
+  --transition-medium: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Base resets & styles matching styling variables */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: var(--font-body);
+  color: var(--text-primary);
+  background-color: var(--bg-primary);
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--text-primary);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
