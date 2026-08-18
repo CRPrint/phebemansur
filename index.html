@@ -122,19 +122,19 @@
       <div class="news-card-container">
         <h2 class="news-title" data-translate="news.title">Old Town Business Spotlight & News</h2>
         <div class="news-grid-layout">
+          <!-- Left Column: Photo & Closed Locations -->
           <div class="news-left-col">
             <div class="news-image-box">
-              <img src="./assets/images/Jonesy's.jpg" alt="Jonesy's Fried Chicken restaurant storefront in Old Town Goleta" class="news-image" width="600" height="400">
+              <img src="./assets/images/Jonesy's.jpg" alt="Jonesy's Fried Chicken restaurant storefront in Old Town Goleta" class="news-image">
             </div>
             
-            <!-- Other Closed Businesses Column under Jonesy's photo -->
             <div class="closed-businesses-section">
               <h3 class="closed-businesses-title" data-translate="news.closedTitle">Other Closed Local Businesses</h3>
-              <div class="closed-businesses-column">
+              <div class="closed-businesses-grid">
                 <div class="closed-biz-card">
                   <a href="https://www.instagram.com/p/DPZ0wg4gTtD/" target="_blank" rel="noopener noreferrer" class="closed-biz-link">
                     <div class="closed-biz-thumb-box">
-                      <img src="./assets/images/goleta floral.PNG" alt="Goleta Floral storefront thumbnail" class="closed-biz-thumb" width="50" height="50">
+                      <img src="./assets/images/goleta floral.PNG" alt="Goleta Floral storefront thumbnail" class="closed-biz-thumb" width="100" height="70">
                     </div>
                     <span class="closed-biz-name" data-translate="news.floral">Goleta Floral</span>
                   </a>
@@ -142,7 +142,7 @@
                 <div class="closed-biz-card">
                   <a href="https://www.noozhawk.com/bizhawk-old-town-goletas-goodland-bbq-nears-its-last-cookout/" target="_blank" rel="noopener noreferrer" class="closed-biz-link">
                     <div class="closed-biz-thumb-box">
-                      <img src="./assets/images/Goodland BBQ.jpg" alt="Goodland BBQ storefront thumbnail" class="closed-biz-thumb" width="50" height="50">
+                      <img src="./assets/images/Goodland BBQ.jpg" alt="Goodland BBQ storefront thumbnail" class="closed-biz-thumb" width="100" height="70">
                     </div>
                     <span class="closed-biz-name" data-translate="news.bbq">Goodland BBQ</span>
                   </a>
@@ -150,7 +150,7 @@
                 <div class="closed-biz-card">
                   <a href="https://www.instagram.com/p/DPZ0wg4gTtD/" target="_blank" rel="noopener noreferrer" class="closed-biz-link">
                     <div class="closed-biz-thumb-box">
-                      <img src="./assets/images/La Tia Joanna.PNG" alt="La Tia Joanna storefront thumbnail" class="closed-biz-thumb" width="50" height="50">
+                      <img src="./assets/images/La Tia Joanna.PNG" alt="La Tia Joanna storefront thumbnail" class="closed-biz-thumb" width="100" height="70">
                     </div>
                     <span class="closed-biz-name" data-translate="news.joanna">La Tia Joanna</span>
                   </a>
@@ -158,13 +158,14 @@
               </div>
             </div>
           </div>
-          
-          <div class="news-content-box">
+
+          <!-- Right Column: Narrative Text -->
+          <div class="news-right-col">
             <p class="news-text news-p1" data-translate="news.p1"><a href="https://www.independent.com/2026/08/17/jonesys-is-closing/?utm_source=facebook&utm_medium=social&utm_campaign=Food-Drink&utm_content=Jonesys-closing&utm_gen=utmdc" target="_blank" rel="noopener noreferrer" class="news-link">Jonesy's Fried Chicken</a> is the most recent business to announce its closure, and we are deeply saddened to see such a vibrant restaurant leave our neighborhood. It marks the fourth local business to close its doors while directly citing the narrowing of Hollister Avenue as a pivotal factor.</p>
             <p class="news-text" data-translate="news.p2">The corridor's redesign has created a perfect storm for local merchants: gridlock traffic, confusing back-in diagonal parking, restricted left-hand turns, and even customer boycotts intended to send a message to City Hall. While well-intentioned, these boycotts inadvertently punish the very small businesses struggling to survive. My own business would have faced closure as well, had we not adapted by adding background check and Live Scan fingerprinting services alongside the support of our remarkably loyal customers.</p>
-            <div class="news-quote-box">
+            <blockquote class="news-quote-block">
               <p class="news-quote-text" data-translate="news.p3">As your elected representative, I will bring this firsthand reality to City Hall and continue advocating fiercely for our small businesses, our residents, and the vitality of Old Town Goleta.</p>
-            </div>
+            </blockquote>
           </div>
         </div>
       </div>
@@ -280,31 +281,31 @@
         <h2 data-translate="getInvolved.title">Get Involved Today</h2>
         <p data-translate="getInvolved.subtitle">Join your neighbors in supporting Phebe and help build a stronger Goleta.</p>
         
-        <form id="involved-form" novalidate>
+        <form id="involved-form" action="https://formspree.io/f/mbgrpzqa" method="POST" novalidate>
           <div class="form-group">
             <label for="form-name" class="form-label" data-translate="getInvolved.formName">Full Name</label>
-            <input type="text" id="form-name" class="form-input" placeholder="Full Name" required>
+            <input type="text" id="form-name" name="name" class="form-input" placeholder="Full Name" required>
           </div>
           <div class="form-group">
             <label for="form-email" class="form-label" data-translate="getInvolved.formEmail">Email Address</label>
-            <input type="email" id="form-email" class="form-input" placeholder="Email Address" required>
+            <input type="email" id="form-email" name="email" class="form-input" placeholder="Email Address" required>
           </div>
           <div class="form-group">
             <label for="form-zip" class="form-label" data-translate="getInvolved.formZip">Zip Code</label>
-            <input type="text" id="form-zip" class="form-input" placeholder="Zip Code" pattern="[0-9]{5}" required>
+            <input type="text" id="form-zip" name="zip" class="form-input" placeholder="Zip Code" pattern="[0-9]{5}" required>
           </div>
           
           <div class="checkbox-group">
             <label class="checkbox-label" for="check-sign">
-              <input type="checkbox" id="check-sign" class="checkbox-input">
+              <input type="checkbox" id="check-sign" name="post_yard_sign" class="checkbox-input">
               <span data-translate="getInvolved.checkSign">Post a Yard Sign</span>
             </label>
             <label class="checkbox-label" for="check-volunteer">
-              <input type="checkbox" id="check-volunteer" class="checkbox-input">
+              <input type="checkbox" id="check-volunteer" name="volunteer_to_walk" class="checkbox-input">
               <span data-translate="getInvolved.checkVolunteer">Volunteer to Walk with Phebe</span>
             </label>
             <label class="checkbox-label" for="check-endorse">
-              <input type="checkbox" id="check-endorse" class="checkbox-input">
+              <input type="checkbox" id="check-endorse" name="endorse_phebe" class="checkbox-input">
               <span data-translate="getInvolved.checkEndorse">Endorse Phebe Mansur</span>
             </label>
           </div>
