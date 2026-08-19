@@ -25,19 +25,23 @@ const TRANSLATIONS_DATA = {
       "tabTurns": "Left-Hand Turns",
       "tabBumps": "Removing Median Bumps",
       "tabParking": "Parking Realignment",
-      "tabLanes": "Four Lanes & Bike Safety",
+      "tabLanes": "Planning Ahead",
+      "tabMaintenance": "Infrastructure & Environment",
       "fixTurnsTitle": "Left-Hand Turns",
-      "fixTurnsProblem": "Eliminating left-hand turns along Hollister Avenue creates severe customer inconvenience, actively discouraging shoppers from stopping at local Old Town businesses. Worse yet, the city showed clear favoritism: the only permitted left turns along the corridor are into city-owned property, the Goleta Union School District, and two corporate franchise businesses—leaving independent local merchants stranded and inaccessible.",
+      "fixTurnsProblem": "Eliminating left-hand turns across 34 local businesses creates severe customer inconvenience, actively driving shoppers away from Old Town’s independent merchants. Making matters worse, the city’s redesign applied these restrictions selectively: the only permitted left turns along the corridor lead into city-owned property, the Goleta Union School District, and two corporate franchise locations. This leaves 34 local, independent business owners stranded, inaccessible, and at a severe economic disadvantage.",
       "fixTurnsSolution": "Immediately restore equal, accessible left-turn access for all local businesses and cross-streets, eliminating unfair city perks, reconnecting our neighborhood, and welcoming shoppers back into Old Town.",
       "fixBumpsTitle": "Restoring Corridor Flow by Removing Median Bumps",
       "fixBumpsProblem": "When the city installed non-traversable median safety bumps along Hollister Avenue, the goal was traffic calming. However, the real-world result has been severe corridor congestion and safety hazards for motorists and emergency services alike.",
-      "fixBumpsSolution": "By eliminating the rigid median barriers and restoring four 9-foot travel lanes, we can eliminate artificial bottlenecks and restore smooth, predictable traffic flow. Removing these physical obstructions gives drivers the flexibility needed to safely navigate turning vehicles, delivery trucks, and emergency responders without bringing the entire corridor to a standstill—all while keeping neighboring residential streets free from cut-through traffic.",
+      "fixBumpsSolution": "By eliminating rigid median barriers, we remove a major source of potential vehicle damage while giving drivers the flexibility needed to safely navigate turning vehicles, delivery trucks, and emergency responders without bringing the entire corridor to a standstill.",
       "fixParkingTitle": "Parking Realignment",
       "fixParkingProblem": "Replacing traditional street parking with confusing back-in diagonal stalls created an unwelcoming environment that actively discourages shoppers and visitors. Back-in parking is inherently discriminatory against newer, inexperienced drivers and older motorists who find reversing into tight traffic stalls difficult or hazardous. Operationally, backing into a stall forces trailing vehicles to stop and wait, backing up corridor traffic—whereas traditional pull-in parking allows drivers to smoothly enter a spot without halting traffic flow, taking their time to safely wait for a clear gap before backing out when leaving.",
       "fixParkingSolution": "Realign street parking back to intuitive, welcoming, pull-in diagonal spots—eliminating traffic backups, ensuring accessible parking for drivers of all ages and experience levels, and inviting visitors back into Old Town.",
-      "fixLanesTitle": "Four Lanes & Bike Safety",
+      "fixLanesTitle": "Planning Ahead: Managing Growth & Restoring Corridor Capacity",
       "fixLanesProblem": "Narrowing Hollister Avenue down to two lanes created LA-style gridlock, while haphazard restriping compromised safety for motorists, delivery drivers, and cyclists alike. Surrounding narrow residential streets have suffered an influx of cut-through traffic and an uptick in accidents. Even though overall traffic volume along the corridor has declined, travel delays have actually increased. The economic fallout has been devastating: local merchants report revenue losses ranging from 15% to 70%, with zero relief or recovery following the completion of the roundabouts.",
-      "fixLanesSolution": "Restore four active travel lanes with 9' widths to clear gridlock, rebuild proper traffic capacity, and pull cut-through drivers off quiet neighborhood streets. Pair this with dedicated, well-marked bike safety infrastructure so motorists, delivery vehicles, and cyclists can safely and efficiently share the corridor. Begin regular parking enforcement."
+      "fixLanesSolution": "With 3–4 major housing developments planned for Old Town—already the most densely populated area in the city—our infrastructure must adapt to meet rising demand rather than creating artificial bottlenecks.<ul class=\"action-list\"><li><strong>Restore Active Travel Lanes:</strong> Re-establish four travel lanes (9-foot width) along the corridor to clear gridlock, restore full traffic capacity, and eliminate drivers cutting through quiet neighborhood streets.</li><li><strong>Integrate Safe Bike Infrastructure:</strong> Implement dedicated, clearly marked bike lanes so cyclists, commuters, and delivery vehicles can navigate the corridor safely alongside vehicle traffic.</li><li><strong>Implement Consistent Parking Enforcement:</strong> Begin active parking enforcement along commercial and residential blocks to protect parking availability for local residents and small businesses.</li></ul>",
+      "fixMaintenanceTitle": "Maintain City Property & Protect Our Environment",
+      "fixMaintenanceProblem": "Infrastructure Maintenance & Environmental Hazards:<ul class=\"action-list\"><li><strong>Debris & Storm Drain Runoff:</strong> Reverse-in tire stops block mechanical street sweepers from reaching the curb, allowing trash and hazardous road debris to collect and wash into local storm drains and coastal waters.</li><li><strong>Neglected Sidewalk Maintenance:</strong> Infrequent cleaning and power washing on city-owned public walkways leave commercial blocks looking unmaintained, detracting from the neighborhood's appeal.</li><li><strong>Public Service Shortfalls:</strong> Overfilled waste receptacles along pedestrian paths lead to excessive litter, signaling a lack of consistent municipal maintenance in high-density areas.</li></ul>",
+      "fixMaintenanceSolution": "City-owned infrastructure along Hollister Avenue requires consistent, proactive maintenance to keep Old Town clean, safe, and welcoming for residents and visitors alike:<ul class=\"action-list\"><li><strong>Remove Reverse-In Tire Stops:</strong> Eliminating these barriers allows street sweepers to properly clean the curb lines, preventing harmful debris and runoff from flowing into local storm drains and reaching our oceans.</li><li><strong>Regular Sidewalk Power Washing:</strong> The city owns the public sidewalks and must fulfill its responsibility to maintain them by scheduling regular deep-cleaning and power washing.</li><li><strong>Increase Trash Collection:</strong> Expand the pickup schedule for public waste receptacles to prevent overflow, reduce litter, and keep commercial corridors clean.</li></ul>"
     },
     "pillars": {
       "title": "Why I'm Running",
@@ -129,6 +133,18 @@ const TRANSLATIONS_DATA = {
       "s2Text": "All unique campaign photos, styling systems, and text modules are protected by campaign licensing. Verification hash signatures are traceable through our footer's License Metadata interface.",
       "s3Title": "3. Voter Data Privacy",
       "s3Text": "Voters contributing coordinates or signups agree to have their data stored securely under our application-layer encryption system. Users agree not to submit false information."
+    },
+    "news": {
+      "title": "Old Town Business Spotlight & News",
+      "p1": "<a href=\"https://www.independent.com/2026/08/17/jonesys-is-closing/?utm_source=facebook&utm_medium=social&utm_campaign=Food-Drink&utm_content=Jonesys-closing&utm_gen=utmdc\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"news-link\">Jonesy's Fried Chicken</a> is the most recent business to announce its closure, and we are deeply saddened to see such a vibrant restaurant leave our neighborhood. It marks the fourth local business to close its doors while directly citing the narrowing of Hollister Avenue as a pivotal factor.",
+      "p2": "The corridor's redesign has created a perfect storm for local merchants: gridlock traffic, confusing back-in diagonal parking, restricted left-hand turns, and even customer boycotts intended to send a message to City Hall. While well-intentioned, these boycotts inadvertently punish the very small businesses struggling to survive. My own business would have faced closure as well, had we not adapted by adding background check and Live Scan fingerprinting services alongside the support of our remarkably loyal customers.",
+      "p3": "As your elected representative, I will bring this firsthand reality to City Hall and continue advocating fiercely for our small businesses, our residents, and the vitality of Old Town Goleta.",
+      "closedTitle": "Closed Businesses<br><span class=\"closed-subtitle\">partial list</span>",
+      "floral": "Goleta Floral",
+      "bbq": "Goodland BBQ",
+      "joanna": "La Tia Joanna",
+      "newTitle": "New Local Businesses",
+      "eddiesGrill": "Eddie's Grill"
     }
   },
   "es-US": {
@@ -154,19 +170,23 @@ const TRANSLATIONS_DATA = {
       "tabTurns": "Giros a la Izquierda",
       "tabBumps": "Eliminación de Topes en la Mediana",
       "tabParking": "Realineación de Estacionamiento",
-      "tabLanes": "Cuatro Carriles y Seguridad Ciclista",
+      "tabLanes": "Planificar con Anticipación",
+      "tabMaintenance": "Infraestructura y Medio Ambiente",
       "fixTurnsTitle": "Giros a la Izquierda",
-      "fixTurnsProblem": "Eliminar los giros a la izquierda en Hollister Avenue crea un grave inconveniente para los clientes, desalentando activamente a los compradores de detenerse en los negocios locales de Old Town. Peor aún, la ciudad mostró un claro favoritismo: los únicos giros a la izquierda permitidos en el corredor son hacia propiedades de la ciudad, el Distrito Escolar de Goleta Union y dos franquicias corporativas, dejando a los comerciantes locales independientes aislados e inaccesibles.",
+      "fixTurnsProblem": "Eliminar los giros a la izquierda en 34 negocios locales crea un grave inconveniente para los clientes, alejando activamente a los compradores de los comerciantes independientes de Old Town. Para empeorar las cosas, el rediseño de la ciudad aplicó estas restricciones de manera selectiva: los únicos giros a la izquierda permitidos a lo largo del corredor conducen a propiedades de la ciudad, al Distrito Escolar de Goleta Union y a dos franquicias corporativas. Esto deja a 34 dueños de negocios locales e independientes aislados, inaccesibles y en una grave desventaja económica.",
       "fixTurnsSolution": "Restaurar de inmediato el acceso equitativo y accesible para girar a la izquierda para todos los negocios locales y calles transversales, eliminando privilegios injustos de la ciudad, reconectando nuestro vecindario y dando la bienvenida nuevamente a los compradores a Old Town.",
       "fixBumpsTitle": "Restaurar el Flujo del Corredor Eliminando los Topes de la Mediana",
       "fixBumpsProblem": "Cuando la ciudad instaló los topes de seguridad no transitables en la mediana a lo largo de Hollister Avenue, el objetivo era calmar el tráfico. Sin embargo, el resultado en el mundo real ha sido una congestión severa del corredor y peligros de seguridad tanto para los automovilistas como para los servicios de emergencia.",
-      "fixBumpsSolution": "Al eliminar las barreras rígidas de la mediana y restaurar cuatro carriles de circulación de 9 pies, podemos eliminar los cuellos de botella artificiales y restaurar un flujo de tráfico fluido y predecible. La eliminación de estas obstrucciones físicas brinda a los conductores la flexibilidad necesaria para navegar de manera segura con vehículos que giran, camiones de reparto y vehículos de emergencia sin detener todo el corredor, todo mientras mantenemos las calles residenciales vecinas libres de tráfico de paso.",
+      "fixBumpsSolution": "Al eliminar las barreras rígidas de la mediana, eliminamos una fuente importante de daños potenciales a los vehículos al tiempo que brindamos a los conductores la flexibilidad necesaria para navegar de manera segura con vehículos que giran, camiones de reparto y socorristas de emergencia sin detener todo el corredor.",
       "fixParkingTitle": "Realineación de Estacionamiento",
       "fixParkingProblem": "Reemplazar el estacionamiento tradicional en la calle con confusos puestos diagonales de reversa creó un ambiente poco acogedor que desalienta activamente a los compradores y visitantes. El estacionamiento en reversa es inherentemente discriminatorio contra los conductores nuevos e inexpertos y los automovilistas de mayor edad que encuentran difícil o peligroso dar marcha atrás en espacios de tráfico reducidos. Operativamente, dar marcha atrás en un espacio obliga a los vehículos que lo siguen a detenerse y esperar, lo que atasca el tráfico del corredor, mientras que el estacionamiento tradicional de entrada directa permite a los conductores ingresar suavemente a un espacio sin detener el flujo del tráfico, tomándose su tiempo para esperar de manera segura un espacio libre antes de dar marcha atrás al salir.",
       "fixParkingSolution": "Realinear el estacionamiento en la calle nuevamente a espacios diagonales tradicionales e intuitivos de entrada directa, eliminando los atascos de tráfico, garantizando un estacionamiento accesible para conductores de todas las edades y niveles de experiencia, e invitando a los visitantes a regresar a Old Town.",
-      "fixLanesTitle": "Cuatro Carriles y Seguridad Ciclista",
+      "fixLanesTitle": "Planificar con Anticipación: Gestionar el Crecimiento y Restaurar la Capacidad del Corredor",
       "fixLanesProblem": "Reducir Hollister Avenue a dos carriles creó embotellamientos al estilo de Los Ángeles, mientras que el trazado desordenado de las calles comprometió la seguridad de conductores, repartidores y ciclistas por igual. Las calles residenciales estrechas circundantes han sufrido una afluencia de tráfico de atajo y un aumento de los accidentes. Aunque el volumen general de tráfico a lo largo del corredor ha disminuido, los retrasos en los viajes han aumentado. El impacto económico ha sido devastador: los comerciantes locales informan pérdidas de ingresos que oscilan entre el 15% y el 70%, con cero alivio o recuperación tras la finalización de las rotondas.",
-      "fixLanesSolution": "Restaurar cuatro carriles de circulación activos con anchos de 9 pies para despejar los embotellamientos, reconstruir la capacidad de tráfico adecuada y desviar a los conductores de paso fuera de las calles tranquilas del vecindario. Combinar esto con infraestructura ciclista dedicada y bien señalizada para que automovilistas, vehículos de reparto y ciclistas puedan compartir el corredor de manera segura y eficiente. Iniciar la aplicación regular de las normas de estacionamiento."
+      "fixLanesSolution": "Con 3–4 desarrollos habitacionales importantes planificados para Old Town—que ya es la zona más densamente poblada de la ciudad—nuestra infraestructura debe adaptarse para satisfacer la creciente demanda en lugar de crear cuellos de botella artificiales.<ul class=\"action-list\"><li><strong>Restaurar Carriles de Circulación Activos:</strong> Reestablecer cuatro carriles de circulación (9 pies de ancho) a lo largo del corredor para despejar los embotellamientos, restaurar la capacidad total de tráfico y eliminar a los conductores que acortan camino por calles residenciales tranquilas.</li><li><strong>Integrar Infraestructura de Bicicletas Segura:</strong> Implementar carriles dedicados y claramente señalizados para bicicletas para que los ciclistas, viajeros cotidianos y vehículos de reparto puedan navegar por el corredor de manera segura junto con el tráfico vehicular.</li><li><strong>Implementar una Aplicación de Estacionamiento Constante:</strong> Iniciar la aplicación activa del estacionamiento en bloques comerciales y residenciales para proteger la disponibilidad de estacionamiento para los residentes locales y los pequeños negocios.</li></ul>",
+      "fixMaintenanceTitle": "Mantener la Propiedad de la Ciudad y Proteger Nuestro Medio Ambiente",
+      "fixMaintenanceProblem": "Mantenimiento de la Infraestructura y Peligros Ambientales:<ul class=\"action-list\"><li><strong>Escombros y Escorrentía de Drenajes Pluviales:</strong> Los topes de estacionamiento en reversa bloquean el paso de las barredoras mecánicas de calles, permitiendo que la basura y los escombros peligrosos de la carretera se acumulen y fluyan hacia los drenajes pluviales locales y las aguas costeras.</li><li><strong>Mantenimiento de Aceras Descuidado:</strong> La limpieza y el lavado a presión poco frecuentes en los caminos públicos de la ciudad dejan los bloques comerciales con un aspecto descuidado, lo que resta atractivo al vecindario.</li><li><strong>Deficiencias en los Servicios Públicos:</strong> Los contenedores de basura desbordados a lo largo de los senderos peatonales provocan un exceso de basura, lo que indica una falta de mantenimiento municipal constante en áreas de alta densidad.</li></ul>",
+      "fixMaintenanceSolution": "La infraestructura de la ciudad a lo largo de Hollister Avenue requiere un mantenimiento constante y proactivo para mantener Old Town limpio, seguro y acogedor para los residentes y visitantes por igual:<ul class=\"action-list\"><li><strong>Eliminar los Topes de Estacionamiento en Reversa:</strong> Eliminar estas barreras permite que las barredoras de calles limpien adecuadamente las líneas de los bordillos, evitando que los desechos dañinos y la escorrentía fluyan hacia los drenajes pluviales locales y las aguas costeras.</li><li><strong>Lavado a Presión Regular de Aceras:</strong> La ciudad es propietaria de las aceras públicas y debe cumplir con su responsabilidad de mantenerlas programando limpiezas profundas y lavados a presión de manera regular.</li><li><strong>Aumentar la Recolección de Basura:</strong> Ampliar el programa de recolección de los contenedores de basura públicos para evitar desbordamientos, reducir la basura y mantener limpios los corredores comerciales.</li></ul>"
     },
     "pillars": {
       "title": "Por Qué Me Postulo",
@@ -258,6 +278,18 @@ const TRANSLATIONS_DATA = {
       "s2Text": "Todos los activos de fotos únicos de la campaña, sistemas de estilo y módulos de texto están protegidos por licencias de campaña. Las firmas hash de verificación se pueden rastrear a través de la interfaz de Metadatos de Licencia de nuestro pie de página.",
       "s3Title": "3. Privacidad de los Datos de Votantes",
       "s3Text": "Los votantes que proporcionan coordenadas o registros aceptan que sus datos se almacenen de forma segura bajo nuestro sistema de cifrado a nivel de aplicación. Los usuarios aceptan no enviar información falsa."
+    },
+    "news": {
+      "title": "Noticias y Destacados de Negocios de Old Town",
+      "p1": "<a href=\"https://www.independent.com/2026/08/17/jonesys-is-closing/?utm_source=facebook&utm_medium=social&utm_campaign=Food-Drink&utm_content=Jonesys-closing&utm_gen=utmdc\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"news-link\">Jonesy's Fried Chicken</a> es la empresa más reciente en anunciar su cierre, y nos entristece profundamente ver que un restaurante tan vibrante deja nuestro vecindario. Marca el cuarto negocio local en cerrar sus puertas citando directamente el estrechamiento de Hollister Avenue como un factor decisivo.",
+      "p2": "El rediseño del corredor ha creado una tormenta perfecta para los comerciantes locales: congestión de tráfico, estacionamiento diagonal en reversa confuso, giros a la izquierda restringidos e incluso boicots de clientes destinados a enviar un mensaje al Ayuntamiento. Aunque bien intencionados, estos boicots castigan inadvertidamente a las mismas pequeñas empresas que luchan por sobrevivir. Mi propio negocio también habría enfrentado el cierre si no nos hubiéramos adaptado al agregar servicios de verificación de antecedentes y huellas dactilares Live Scan junto con el apoyo de nuestros clientes notablemente leales.",
+      "p3": "Como su representante electa, llevaré esta realidad de primera mano al Ayuntamiento y continué abogando ferozmente por nuestras pequeñas empresas, nuestros residentes y la vitalidad de Old Town Goleta.",
+      "closedTitle": "Negocios Cerrados<br><span class=\"closed-subtitle\">lista parcial</span>",
+      "floral": "Goleta Floral",
+      "bbq": "Goodland BBQ",
+      "joanna": "La Tía Joanna",
+      "newTitle": "Nuevos Negocios Locales",
+      "eddiesGrill": "Eddie's Grill"
     }
   }
 };
@@ -380,16 +412,18 @@ function setupActionPlanTabs() {
     // Local bilingual fallbacks for CORS / file:// mode
     const FALLBACK_PROBLEMS = {
       'en-US': {
-        'tab-turns': "Eliminating left-hand turns along Hollister Avenue creates severe customer inconvenience, actively discouraging shoppers from stopping at local Old Town businesses. Worse yet, the city showed clear favoritism: the only permitted left turns along the corridor are into city-owned property, the Goleta Union School District, and two corporate franchise businesses—leaving independent local merchants stranded and inaccessible.",
+        'tab-turns': "Eliminating left-hand turns across 34 local businesses creates severe customer inconvenience, actively driving shoppers away from Old Town’s independent merchants. Making matters worse, the city’s redesign applied these restrictions selectively: the only permitted left turns along the corridor lead into city-owned property, the Goleta Union School District, and two corporate franchise locations. This leaves 34 local, independent business owners stranded, inaccessible, and at a severe economic disadvantage.",
         'tab-bumps': "Installing raised plastic median safety bumps down the center of Hollister Avenue has physically divided the street, blocked access to driveways, and restricted normal traffic flow, creating hazards for motorists and making deliveries or quick turns frustratingly difficult.",
         'tab-parking': "Replacing traditional street parking with confusing back-in diagonal stalls created an unwelcoming environment that actively discourages shoppers and visitors. Back-in parking is inherently discriminatory against newer, inexperienced drivers and older motorists who find reversing into tight traffic stalls difficult or hazardous. Operationally, backing into a stall forces trailing vehicles to stop and wait, backing up corridor traffic—whereas traditional pull-in parking allows drivers to smoothly enter a spot without halting traffic flow, taking their time to safely wait for a clear gap before backing out when leaving.",
-        'tab-lanes': "Narrowing Hollister Avenue down to two lanes created LA-style gridlock, while haphazard restriping compromised safety for motorists, delivery drivers, and cyclists alike. Surrounding narrow residential streets have suffered an influx of cut-through traffic and an uptick in accidents. Even though overall traffic volume along the corridor has declined, travel delays have actually increased. The economic fallout has been devastating: local merchants report revenue losses ranging from 15% to 70%, with zero relief or recovery following the completion of the roundabouts."
+        'tab-lanes': "Narrowing Hollister Avenue down to two lanes created LA-style gridlock, while haphazard restriping compromised safety for motorists, delivery drivers, and cyclists alike. Surrounding narrow residential streets have suffered an influx of cut-through traffic and an uptick in accidents. Even though overall traffic volume along the corridor has declined, travel delays have actually increased. The economic fallout has been devastating: local merchants report revenue losses ranging from 15% to 70%, with zero relief or recovery following the completion of the roundabouts.",
+        'tab-maintenance': "Infrastructure Maintenance & Environmental Hazards:<ul class=\"action-list\"><li><strong>Debris & Storm Drain Runoff:</strong> Reverse-in tire stops block mechanical street sweepers from reaching the curb, allowing trash and hazardous road debris to collect and wash into local storm drains and coastal waters.</li><li><strong>Neglected Sidewalk Maintenance:</strong> Infrequent cleaning and power washing on city-owned public walkways leave commercial blocks looking unmaintained, detracting from the neighborhood's appeal.</li><li><strong>Public Service Shortfalls:</strong> Overfilled waste receptacles along pedestrian paths lead to excessive litter, signaling a lack of consistent municipal maintenance in high-density areas.</li></ul>"
       },
       'es-US': {
-        'tab-turns': "Eliminar los giros a la izquierda en Hollister Avenue crea un grave inconveniente para los clientes, desalentando activamente a los compradores de detenerse en los negocios locales de Old Town. Peor aún, la ciudad mostró un claro favoritismo: los únicos giros a la izquierda permitidos en el corredor son hacia propiedades de la ciudad, el Distrito Escolar de Goleta Union y dos franquicias corporativas, dejando a los comerciantes locales independientes aislados e inaccesibles.",
+        'tab-turns': "Eliminar los giros a la izquierda en 34 negocios locales crea un grave inconveniente para los clientes, alejando activamente a los compradores de los comerciantes independientes de Old Town. Para empeorar las cosas, el rediseño de la ciudad aplicó estas restricciones de manera selectiva: los únicos giros a la izquierda permitidos a lo largo del corredor conducen a propiedades de la ciudad, al Distrito Escolar de Goleta Union y a dos franquicias corporativas. Esto deja a 34 dueños de negocios locales e independientes aislados, inaccesibles y en una grave desventaja económica.",
         'tab-bumps': "La instalación de topes de seguridad elevados en la mediana central a lo largo de Hollister Avenue ha dividido físicamente la calle, bloqueado el acceso a las entradas de vehículos y restringido el flujo normal del tráfico, creando peligros para los automovilistas y haciendo que las entregas o los giros rápidos sean frustrantemente difíciles.",
         'tab-parking': "Reemplazar el estacionamiento tradicional en la calle con confusos puestos diagonales de reversa creó un ambiente poco acogedor que desalienta activamente a los compradores y visitantes. El estacionamiento en reversa es inherentemente discriminatorio contra los conductores nuevos e inexpertos y los automovilistas de mayor edad que encuentran difícil o peligroso dar marcha atrás en espacios de tráfico reducidos. Operativamente, dar marcha atrás en un espacio obliga a los vehículos que lo siguen a detenerse y esperar, lo que atasca el tráfico del corredor, mientras que el estacionamiento tradicional de entrada directa permite a los conductores ingresar suavemente a un espacio sin detener el flujo del tráfico, tomándose su tiempo para esperar de manera segura un espacio libre antes de dar marcha atrás al salir.",
-        'tab-lanes': "Reducir Hollister Avenue a dos carriles creó embotellamientos al estilo de Los Ángeles, mientras que el trazado desordenado de las calles comprometió la seguridad de conductores, repartidores y ciclistas por igual. Las calles residenciales estrechas circundantes han sufrido una afluencia de tráfico de atajo y un aumento de los accidentes. Aunque el volumen general de tráfico a lo largo del corredor ha disminuido, los retrasos en los viajes han aumentado. El impacto económico ha sido devastador: los comerciantes locales informan pérdidas de ingresos que oscilan entre el 15% y el 70%, con cero alivio o recuperación tras la finalización de las rotondas."
+        'tab-lanes': "Reducir Hollister Avenue a dos carriles creó embotellamientos al estilo de Los Ángeles, mientras que el trazado desordenado de las calles comprometió la seguridad de conductores, repartidores y ciclistas por igual. Las calles residenciales estrechas circundantes han sufrido una afluencia de tráfico de atajo y un aumento de los accidentes. Aunque el volumen general de tráfico a lo largo del corredor ha disminuido, los retrasos en los viajes han aumentado. El impacto económico ha sido devastador: los comerciantes locales informan pérdidas de ingresos que oscilan entre el 15% y el 70%, con cero alivio o recuperación tras la finalización de las rotondas.",
+        'tab-maintenance': "Mantenimiento de la Infraestructura y Peligros Ambientales:<ul class=\"action-list\"><li><strong>Escombros y Escorrentía de Drenajes Pluviales:</strong> Los topes de estacionamiento en reversa bloquean el paso de las barredoras mecánicas de calles, permitiendo que la basura y los escombros peligrosos de la carretera se acumulen y fluyan hacia los drenajes pluviales locales y las aguas costeras.</li><li><strong>Mantenimiento de Aceras Descuidado:</strong> La limpieza y el lavado a presión poco frecuentes en los caminos públicos de la ciudad dejan los bloques comerciales con un aspecto descuidado, lo que resta atractivo al vecindario.</li><li><strong>Deficiencias en los Servicios Públicos:</strong> Los contenedores de basura desbordados a lo largo de los senderos peatonales provocan un exceso de basura, lo que indica una falta de mantenimiento municipal constante en áreas de alta densidad.</li></ul>"
       }
     };
 
@@ -398,7 +432,8 @@ function setupActionPlanTabs() {
       'tab-turns': 'actionPlan.fixTurnsProblem',
       'tab-bumps': 'actionPlan.fixBumpsProblem',
       'tab-parking': 'actionPlan.fixParkingProblem',
-      'tab-lanes': 'actionPlan.fixLanesProblem'
+      'tab-lanes': 'actionPlan.fixLanesProblem',
+      'tab-maintenance': 'actionPlan.fixMaintenanceProblem'
     };
     const key = problemKeys[targetId];
     const problemTextEl = document.getElementById('dynamic-problem-text');
@@ -481,6 +516,31 @@ function setupInvolvedForm() {
         
         console.log('✅ Encryption complete! Secure payload generated:', encryptedPayload);
         
+        // Post to Formspree via AJAX fetch
+        const response = await fetch('https://formspree.io/f/mbgrpzqa', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+          },
+          body: JSON.stringify({
+            name: nameInput.value,
+            email: emailInput.value,
+            zip: zipInput.value,
+            post_yard_sign: checkSign ? 'Yes' : 'No',
+            volunteer_to_walk: checkVolunteer ? 'Yes' : 'No',
+            endorse_phebe: checkEndorse ? 'Yes' : 'No',
+            _subject: 'New Goleta Campaign Signup',
+            encryptedFingerprint: encryptedPayload.keyFingerprint
+          })
+        });
+
+        if (response.ok) {
+          console.log('✅ Formspree submission successful!');
+        } else {
+          console.error('Formspree submission failed:', response.statusText);
+        }
+
         // Clear and show success
         form.reset();
         form.style.display = 'none';
@@ -488,7 +548,7 @@ function setupInvolvedForm() {
           successContainer.style.display = 'block';
         }
       } catch (err) {
-        console.error('Encryption failed:', err);
+        console.error('Encryption or Formspree submission failed:', err);
       }
     });
   }
