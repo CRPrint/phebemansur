@@ -435,6 +435,21 @@ section {
   margin-bottom: 0;
 }
 
+.action-list {
+  margin-top: var(--spacing-sm);
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.action-list li {
+  margin-bottom: var(--spacing-xs);
+  line-height: 1.6;
+}
+
+.action-list li:last-child {
+  margin-bottom: 0;
+}
+
 .inline-tab-link {
   color: var(--brand-secondary);
   text-decoration: underline;
@@ -1292,5 +1307,276 @@ section {
     padding: 0.5rem var(--spacing-sm) var(--spacing-sm);
   }
 }
+/* Old Town Business Spotlight & News Section */
+.news-section {
+  padding: var(--spacing-lg) 0;
+  background-color: var(--bg-card);
+}
 
+.news-section *,
+.news-card-container,
+.news-image-box,
+.news-content-box,
+.closed-businesses-section,
+.closed-businesses-grid,
+.closed-biz-card,
+.closed-biz-link,
+.closed-biz-thumb-box,
+.closed-biz-thumb {
+  box-sizing: border-box;
+}
 
+.news-card-container {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-primary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-lg);
+  padding: var(--spacing-md);
+  box-shadow: var(--shadow-md);
+  max-width: 900px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .news-card-container {
+    padding: var(--spacing-lg);
+  }
+}
+
+.news-title {
+  color: var(--brand-secondary) !important;
+  font-size: clamp(1.8rem, 3vw, 2.5rem) !important;
+  margin-bottom: var(--spacing-sm) !important;
+  text-align: center;
+  font-family: var(--font-heading) !important;
+  font-weight: 800;
+}
+
+/* Force container to allow full grid expansion */
+#business-news .news-card-container {
+  width: 100% !important;
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+}
+
+/* Force two-column layout on desktop */
+#business-news .news-grid-layout {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  gap: 2.5rem !important;
+  align-items: start !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+/* Stop child columns from pushing past 50% width */
+#business-news .news-left-col,
+#business-news .news-right-col {
+  min-width: 0 !important;
+  width: 100% !important;
+}
+
+/* Ensure images fit within their respective column boundaries */
+#business-news .news-image-box {
+  width: 100% !important;
+  overflow: hidden !important;
+  border-radius: 8px !important;
+}
+
+#business-news .news-image {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  display: block !important;
+  object-fit: cover !important;
+}
+
+/* Ensure closed/new business grids fit inside the left column */
+#business-news .closed-businesses-grid,
+#business-news .new-businesses-grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)) !important;
+  gap: 1rem !important;
+  width: 100% !important;
+}
+
+#business-news .closed-biz-thumb-box,
+#business-news .new-biz-thumb-box {
+  width: 100% !important;
+}
+
+#business-news .closed-biz-thumb,
+#business-news .new-biz-thumb {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  #business-news .news-grid-layout {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+.news-image-box:hover .news-image {
+  transform: scale(1.02);
+}
+
+.news-content-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: var(--spacing-md);
+}
+
+.news-text {
+  font-family: var(--font-body) !important;
+  font-size: 1.05rem !important;
+  line-height: 1.6 !important; /* Comfortable line-height 1.6 */
+  color: var(--text-primary) !important;
+  margin-bottom: var(--spacing-sm) !important;
+}
+
+.news-text a.news-link {
+  color: var(--brand-primary) !important;
+  text-decoration: underline !important;
+  font-weight: 700 !important;
+  transition: color var(--transition-fast) !important;
+}
+
+.news-text a.news-link:hover {
+  color: var(--brand-primary-hover) !important;
+}
+
+/* Blockquote Styling */
+.news-quote-block {
+  background: #edf2f7 !important; /* light grey background */
+  border-left: 4px solid #0d233a !important; /* deep navy accent border */
+  padding: 15px 20px !important; /* comfortable padding */
+  margin: var(--spacing-xs) 0 var(--spacing-sm) 0 !important;
+  border-radius: 0 var(--border-radius-md) var(--border-radius-md) 0;
+}
+
+.news-quote-text {
+  font-family: var(--font-body) !important;
+  font-size: 1.1rem !important;
+  font-style: italic !important; /* italic statement */
+  color: #0d233a !important;
+  line-height: 1.6 !important;
+  margin-bottom: 0 !important;
+}
+
+/* Other Closed & New Businesses Section Styles (Horizontal Row) */
+.closed-businesses-section,
+.new-businesses-section {
+  clear: none !important;
+  margin-top: 0 !important;
+  padding-top: var(--spacing-sm) !important; /* Compact padding */
+  border-top: 1px solid var(--border-color) !important;
+  width: 100% !important;
+}
+
+.closed-businesses-title,
+.new-businesses-title {
+  color: var(--brand-secondary) !important;
+  font-size: 1.25rem !important;
+  margin-bottom: var(--spacing-xs) !important; /* Compact title margin */
+  text-align: center !important;
+  font-family: var(--font-heading) !important;
+  font-weight: 700;
+}
+
+.closed-subtitle {
+  display: block !important;
+  font-size: 0.9rem !important;
+  font-style: italic !important;
+  font-weight: 400 !important;
+  color: var(--text-secondary) !important;
+  margin-top: 4px !important;
+}
+
+.closed-businesses-grid {
+  display: flex !important; /* horizontal flexbox grid */
+  flex-direction: row !important;
+  flex-wrap: nowrap !important; /* Force single row */
+  justify-content: center !important;
+  gap: 15px !important; /* Slightly smaller gap to guarantee fit */
+  width: 100%;
+}
+
+.new-businesses-grid {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  gap: 20px !important;
+  width: 100%;
+  width: 100%;
+}
+
+.closed-biz-card,
+.new-biz-card {
+  text-align: center;
+}
+
+.closed-biz-link,
+.new-biz-link {
+  display: flex !important;
+  flex-direction: column !important; /* Centered above label */
+  align-items: center !important;
+  gap: var(--spacing-xs) !important;
+  text-decoration: none;
+  color: var(--text-primary) !important;
+  transition: transform var(--transition-fast) !important;
+}
+
+.closed-biz-link:hover,
+.new-biz-link:hover {
+  transform: translateY(-3px) !important;
+}
+
+.closed-biz-thumb-box,
+.new-biz-thumb-box {
+  width: 100px !important; /* 100px wide */
+  height: 70px !important; /* 70px tall */
+  max-width: 100px !important;
+  max-height: 70px !important;
+  border-radius: var(--border-radius-md);
+  overflow: hidden;
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  background-color: var(--bg-secondary);
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-shrink: 0 !important;
+}
+
+.closed-biz-thumb,
+.new-biz-thumb {
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 100% !important;
+  max-height: 100% !important;
+  object-fit: cover !important;
+  display: block !important;
+}
+
+.closed-biz-name,
+.new-biz-name {
+  font-family: var(--font-body) !important;
+  font-size: 0.95rem !important;
+  font-weight: 600 !important;
+  color: var(--brand-secondary) !important;
+  text-decoration: underline !important;
+  text-underline-offset: 3px !important;
+  transition: color var(--transition-fast) !important;
+}
+
+.closed-biz-link:hover .closed-biz-name,
+.new-biz-link:hover .new-biz-name {
+  color: var(--brand-primary) !important;
+}
