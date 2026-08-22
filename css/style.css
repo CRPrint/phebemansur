@@ -854,68 +854,46 @@ section {
   color: var(--brand-secondary);
 }
 
-/* Yard Sign QR placeholder block */
-.yard-sign-block {
-  background-color: var(--bg-card);
-  border: 2px dashed var(--brand-primary);
-  border-radius: var(--border-radius-lg);
-  padding: var(--spacing-md);
-  display: flex;
-  align-items: center;
-  gap: var(--spacing-md);
-  box-shadow: var(--shadow-sm);
+/* Container card for the yard sign preview */
+.yard-sign-promo-card {
+  display: flex !important;
+  align-items: center !important;
+  gap: 1.5rem !important;
+  border: 2px dashed #b84328 !important;
+  border-radius: 12px !important;
+  padding: 1.25rem !important;
+  background-color: #ffffff !important;
+  box-sizing: border-box !important;
 }
 
-.qr-placeholder-container {
-  flex-shrink: 0;
-  width: 2.2in; /* Compiles with margin wrapper to ensure a clear 2x2 area */
-  height: 2.2in;
-  border: 1px solid var(--border-color);
-  border-radius: var(--border-radius-md);
-  background-color: var(--bg-primary);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
+/* Image container sized for the 24x16 (3:2 ratio) aspect ratio */
+.yard-sign-image-wrapper {
+  flex: 0 0 220px !important;
+  max-width: 220px !important;
+  width: 100% !important;
 }
 
-.qr-box {
-  width: 2in; /* EXACTLY 2 inches */
-  height: 2in;
-  background-color: var(--text-primary);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--text-light);
-  font-size: 0.8rem;
-  font-weight: 700;
-  text-align: center;
-  padding: 8px;
-  flex-direction: column;
-  gap: 6px;
+.yard-sign-preview-img {
+  width: 100% !important;
+  height: auto !important;
+  display: block !important;
+  border-radius: 6px !important;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12) !important;
+  object-fit: contain !important;
 }
 
-.qr-text-label {
-  font-size: 0.65rem;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  opacity: 0.85;
+/* Content typography adjustment */
+.yard-sign-promo-content h3 {
+  color: #b84328 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0.5rem !important;
+  font-size: 1.25rem !important;
 }
 
-.yard-sign-info {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-
-.yard-sign-info h4 {
-  color: var(--brand-primary);
-  font-size: 1.15rem;
-}
-
-.yard-sign-info p {
-  font-size: 0.9rem;
-  color: var(--text-secondary);
+.yard-sign-promo-content p {
+  margin: 0 !important;
+  color: #333333 !important;
+  line-height: 1.4 !important;
 }
 
 /* Standardized Footer */
@@ -1147,9 +1125,14 @@ section {
     grid-template-columns: 1fr;
   }
   
-  .yard-sign-block {
-    flex-direction: column;
-    text-align: center;
+  .yard-sign-promo-card {
+    flex-direction: column !important;
+    text-align: center !important;
+  }
+  
+  .yard-sign-image-wrapper {
+    flex: 0 0 auto !important;
+    max-width: 100% !important;
   }
   
   /* Hamburger Transformations */
