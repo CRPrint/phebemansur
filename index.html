@@ -28,6 +28,16 @@
           <li><a href="#action-plan" class="nav-link" data-translate="nav.actionPlan">Hollister Action Plan</a></li>
           <li><a href="#pillars" class="nav-link" data-translate="nav.pillars">Why Phebe</a></li>
           <li><a href="#get-involved" class="nav-link" data-translate="nav.getInvolved">Get Involved</a></li>
+          <li class="nav-contribute-wrapper">
+            <button id="contribute-btn" class="header-contribute-btn" aria-haspopup="dialog" aria-controls="contribute-modal">
+              <img src="./assets/images/qrcode.png" alt="QR Code" class="header-qr-thumb">
+              <span data-translate="nav.contribute">Contribute</span>
+            </button>
+            <div class="header-qr-dropdown" id="header-qr-dropdown" role="region" aria-label="Contribute QR Code Quick View">
+              <img src="./assets/images/qrcode.png" alt="Contribute via PayPal QR Code" class="header-qr-dropdown-img">
+              <span class="header-qr-dropdown-label" data-translate="contributeModal.scanBadge">Scan with PayPal</span>
+            </div>
+          </li>
           <li>
             <button id="lang-toggle" class="btn btn-outline" style="min-height: 40px; padding: 0.25rem 1rem;" data-translate="nav.toggleLang" aria-label="Switch Language">
               Español
@@ -55,6 +65,10 @@
           <a href="#get-involved" class="btn btn-primary" data-translate="hero.ctaJoin">Join Our Campaign</a>
           <a href="https://docs.google.com/forms/d/e/1FAIpQLSfUFqI-wFoRW_uUapaZQAfkJigTcqC6_kVbzWnWJGKAh4MOtw/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer" class="btn btn-outline" data-translate="hero.ctaSurvey">Take Community Survey</a>
           <a href="#story" class="btn btn-secondary" data-translate="hero.ctaStory">Read Phebe's Story</a>
+          <button type="button" id="hero-contribute-btn" class="btn btn-primary hero-contribute-btn btn-open-contribute" aria-haspopup="dialog" aria-controls="contribute-modal">
+            <img src="./assets/images/qrcode.png" alt="QR Code" class="hero-qr-thumb">
+            <span data-translate="nav.contribute">Contribute</span>
+          </button>
         </div>
       </div>
       <div class="hero-image-container">
@@ -75,7 +89,7 @@
         <!-- Problem Card -->
         <div class="problem-card">
           <h3 data-translate="actionPlan.problemLabel">The Problem</h3>
-          <p id="dynamic-problem-text" data-translate="actionPlan.fixTurnsProblem">Eliminating left-hand turns along Hollister Avenue creates severe customer inconvenience, actively discouraging shoppers from stopping at local Old Town businesses. Worse yet, the city showed clear favoritism: the only permitted left turns along the corridor are into city-owned property, the Goleta Union School District, and two corporate franchise businesses—leaving independent local merchants stranded and inaccessible.</p>
+          <p id="dynamic-problem-text" data-translate="actionPlan.fixTurnsProblem">Eliminating left-hand turns for 34 local businesses creates severe customer inconvenience, actively driving shoppers away from Old Town’s independent merchants.<br><br>Making matters worse, <strong>the city’s redesign applied these restrictions selectively:</strong> the only permitted left turns along the corridor lead into city-owned property, the Goleta Union School District, Santa Cruz Market, and two corporate franchise locations.<br><br>This leaves 34 local, independent business owners stranded, inaccessible, and at a severe economic disadvantage.</p>
         </div>
 
         <!-- Solutions / Tabs Module -->
@@ -190,7 +204,7 @@
         <!-- Right Column: Narrative Text -->
         <div class="news-right-col">
           <p class="news-text news-p1" data-translate="news.p1"><a href="https://www.independent.com/2026/08/17/jonesys-is-closing/?utm_source=facebook&utm_medium=social&utm_campaign=Food-Drink&utm_content=Jonesys-closing&utm_gen=utmdc" target="_blank" rel="noopener noreferrer" class="news-link">Jonesy's Fried Chicken</a> is the most recent business to announce its closure, and we are deeply saddened to see such a vibrant restaurant leave our neighborhood. It marks the fifth local business to close its doors while directly citing the narrowing of Hollister Avenue as a pivotal factor.</p>
-          <p class="news-text" data-translate="news.p2">The corridor's redesign has created a perfect storm for local merchants: gridlock traffic, confusing back-in diagonal parking, restricted left-hand turns, and even customer boycotts intended to send a message to City Hall. While well-intentioned, these boycotts inadvertently punish the very small businesses struggling to survive. My own business would have faced closure as well, had we not adapted by adding background check and Live Scan fingerprinting services alongside the support of our remarkably loyal customers.</p>
+          <p class="news-text" data-translate="news.p2">The corridor's redesign has created a perfect storm for local merchants: gridlock traffic, confusing back-in diagonal parking, restricted left-hand turns, and even customer boycotts intended to send a message to City Hall. While well-intentioned, these boycotts inadvertently punish the very small businesses struggling to survive. My own business would have faced closure as well, suffering 57% decline in revenue, had we not adapted by adding background check and Live Scan fingerprinting services alongside the support of our remarkably loyal customers.</p>
           <blockquote class="news-quote-block">
             <p class="news-quote-text" data-translate="news.p3">As your elected representative, I will bring this firsthand reality to City Hall and continue advocating fiercely for our small businesses, our residents, and the vitality of Old Town Goleta.</p>
           </blockquote>
@@ -366,6 +380,17 @@
           </div>
         </div>
 
+        <!-- Support Our Campaign (Contribute Card) -->
+        <div class="support-campaign-card">
+          <h3 class="support-campaign-title" data-translate="getInvolved.supportTitle">SUPPORT OUR CAMPAIGN</h3>
+          <p class="support-campaign-sub" data-translate="getInvolved.supportSubtitle">Help fuel our grassroots outreach across District 2.</p>
+          <div class="support-campaign-perks" data-translate="getInvolved.supportPerks">Contribute $20+ and receive a free T-Shirt, $25+ and receive a free Hat, or $40+ contribute and receive both!</div>
+          <button type="button" id="sidebar-contribute-btn" class="btn btn-primary support-contribute-btn btn-open-contribute" aria-haspopup="dialog" aria-controls="contribute-modal">
+            <img src="./assets/images/qrcode.png" alt="QR Code" class="support-qr-thumb">
+            <span data-translate="getInvolved.supportCta">CONTRIBUTE NOW</span>
+          </button>
+        </div>
+
         <!-- Yard Sign Promo Card -->
         <div class="yard-sign-promo-card">
           <div class="yard-sign-image-wrapper">
@@ -378,7 +403,8 @@
           
           <div class="yard-sign-promo-content">
             <h3 data-translate="getInvolved.yardSignTitle">Get Your Yard Sign</h3>
-            <p data-translate="getInvolved.yardSignDesc">Show your support in your neighborhood! Request a sign to be delivered right to your door.</p>
+            <p data-translate="getInvolved.yardSignDesc">Show your support in your neighborhood. Scan the code to track your sign delivery!</p>
+            <p class="yard-sign-notice" data-translate="getInvolved.yardSignNotice">We have seen recent vandalism of our campaign signs across the district. While this is frustrating, I strongly urge all of my supporters not to retaliate or engage in similar behavior. We will always lead by example, respect our neighbors, and never bend to the unethical actions of others.</p>
           </div>
         </div>
       </div>
@@ -389,7 +415,7 @@
   <footer class="footer-wrapper">
     <div class="container footer-content">
       <div class="compliance-box" data-translate="footer.compliance">
-        Paid for by Phebe Mansur for Goleta City Council D2 2026. FPPC ID pending.
+        Paid for by Phebe Mansur for Goleta City Council D2 2026. FPPC# 1496535.
       </div>
       
       <ul class="footer-links">
@@ -457,6 +483,47 @@
           <div id="modal-body" class="text-slate-700 leading-relaxed text-base space-y-3">
             <!-- Story Content Injected Here -->
           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contribute Modal (QR Code) -->
+  <div class="modal-overlay" id="contribute-modal" role="dialog" aria-labelledby="contribute-modal-title" aria-modal="true">
+    <div class="modal-card contribute-modal-card">
+      <div class="modal-header">
+        <h3 id="contribute-modal-title" data-translate="contributeModal.title">Contribute to Phebe's Campaign</h3>
+        <button class="modal-close-btn" id="close-contribute-modal" aria-label="Close modal">&times;</button>
+      </div>
+      <div class="modal-body contribute-modal-body">
+        <p class="contribute-modal-sub" data-translate="contributeModal.subtitle">Support our grassroots movement for Goleta City Council, District 2.</p>
+        
+        <!-- High-Contrast Supporter Perks Badge -->
+        <div class="contribute-perks-badge" role="region" aria-label="Supporter Perks">
+          <div class="perks-badge-header">
+            <span class="perks-star" aria-hidden="true">★</span>
+            <span data-translate="contributeModal.perksTitle">LIMITED EDITION SUPPORTER PERKS</span>
+            <span class="perks-star" aria-hidden="true">★</span>
+          </div>
+          <ul class="perks-badge-list">
+            <li data-translate="contributeModal.perk1">• $20+ Contribution ───► Free "Life is Better" T-Shirt</li>
+            <li data-translate="contributeModal.perk2">• $25+ Contribution ───► Free Campaign Hat</li>
+            <li data-translate="contributeModal.perk3">• $40+ Contribution ───► Free T-Shirt & Hat Combo! ✨</li>
+          </ul>
+        </div>
+
+        <div class="contribute-qr-card">
+          <img src="./assets/images/qrcode.png" alt="PayPal Contribution QR Code for Phebe Mansur Campaign" class="contribute-modal-qr-img">
+          <div class="contribute-scan-badge">
+            <svg class="paypal-icon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M7.076 21.337H2.47a.641.641 0 0 1-.633-.74L4.944 3.72a.78.78 0 0 1 .77-.655h6.76c2.72 0 4.792.655 5.86 1.848.97 1.085 1.258 2.57.857 4.41-.05.23-.112.464-.188.703-1.026 4.71-4.225 6.467-8.318 6.467H8.62a.78.78 0 0 0-.77.656l-.774 4.188z"/>
+            </svg>
+            <span data-translate="contributeModal.scanBadge">Scan with PayPal</span>
+          </div>
+        </div>
+        <p class="contribute-instruction" data-translate="contributeModal.instruction">Scan with your smartphone camera or the PayPal app to donate directly to the campaign.</p>
+        <div class="contribute-modal-compliance" data-translate="footer.compliance">
+          Paid for by Phebe Mansur for Goleta City Council D2 2026. FPPC# 1496535.
         </div>
       </div>
     </div>
