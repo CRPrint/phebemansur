@@ -5,6 +5,7 @@
     "actionPlan": "Plan de Hollister",
     "pillars": "Por Qué Phebe",
     "getInvolved": "Participar",
+    "contribute": "Contribuir",
     "toggleLang": "English"
   },
   "hero": {
@@ -25,17 +26,17 @@
     "tabLanes": "Planificar con Anticipación",
     "tabMaintenance": "Infraestructura y Medio Ambiente",
     "fixTurnsTitle": "Giros a la Izquierda",
-    "fixTurnsProblem": "Eliminar los giros a la izquierda en 34 negocios locales crea un grave inconveniente para los clientes, alejando activamente a los compradores de los comerciantes independientes de Old Town. Para empeorar las cosas, el rediseño de la ciudad aplicó estas restricciones de manera selectiva: los únicos giros a la izquierda permitidos a lo largo del corredor conducen a propiedades de la ciudad, al Distrito Escolar de Goleta Union y a dos franquicias corporativas. Esto deja a 34 dueños de negocios locales e independientes aislados, inaccesibles y en una grave desventaja económica.",
+    "fixTurnsProblem": "Eliminar los giros a la izquierda para 34 negocios locales crea un grave inconveniente para los clientes, alejando activamente a los compradores de los comerciantes independientes de Old Town.<br><br>Para empeorar las cosas, <strong>el rediseño de la ciudad aplicó estas restricciones de manera selectiva:</strong> los únicos giros a la izquierda permitidos a lo largo del corredor conducen a propiedades de la ciudad, al Distrito Escolar de Goleta Union, a Santa Cruz Market y a dos franquicias corporativas.<br><br><strong>Esto deja a 34 dueños de negocios locales e independientes aislados, inaccesibles y en una grave desventaja económica.</strong>",
     "fixTurnsSolution": "Restaurar de inmediato el acceso equitativo y accesible para girar a la izquierda para todos los negocios locales y calles transversales, eliminando privilegios injustos de la ciudad, reconectando nuestro vecindario y dando la bienvenida nuevamente a los compradores a Old Town.",
     "fixBumpsTitle": "Restaurar el Flujo del Corredor Eliminando los Topes de la Mediana",
     "fixBumpsProblem": "Cuando la ciudad instaló los topes de seguridad no transitables en la mediana a lo largo de Hollister Avenue, el objetivo era calmar el tráfico. Sin embargo, el resultado en el mundo real ha sido una congestión severa del corredor y peligros de seguridad tanto para los automovilistas como para los servicios de emergencia.",
     "fixBumpsSolution": "Al eliminar las barreras rígidas de la mediana, eliminamos una fuente importante de daños potenciales a los vehículos al tiempo que brindamos a los conductores la flexibilidad necesaria para navegar de manera segura con vehículos que giran, camiones de reparto y socorristas de emergencia sin detener todo el corredor.",
     "fixParkingTitle": "Realineación de Estacionamiento",
-    "fixParkingProblem": "Reemplazar el estacionamiento tradicional en la calle con confusos puestos diagonales de reversa creó un ambiente poco acogedor que desalienta activamente a los compradores y visitantes. El estacionamiento en reversa es inherentemente discriminatorio contra los conductores nuevos e inexpertos y los automovilistas de mayor edad que encuentran difícil o peligroso dar marcha atrás en espacios de tráfico reducidos. Operativamente, dar marcha atrás en un espacio obliga a los vehículos que lo siguen a detenerse y esperar, lo que atasca el tráfico del corredor, mientras que el estacionamiento tradicional de entrada directa permite a los conductores ingresar suavemente a un espacio sin detener el flujo del tráfico, tomándose su tiempo para esperar de manera segura un espacio libre antes de dar marcha atrás al salir.",
+    "fixParkingProblem": "Reemplazar el estacionamiento tradicional en la calle con confusos puestos diagonales de reversa creó un <strong>ambiente poco acogedor</strong> que desalienta activamente a los compradores y visitantes. El estacionamiento en reversa es inherentemente discriminatorio contra los conductores nuevos e inexpertos y los automovilistas de mayor edad que encuentran difícil o peligroso dar marcha atrás en espacios de tráfico reducidos.<br><br><strong>Operativamente, dar marcha atrás en un espacio obliga a los vehículos que lo siguen a detenerse y esperar, lo que atasca el tráfico del corredor</strong>, mientras que el estacionamiento tradicional de entrada directa permite a los conductores ingresar suavemente a un espacio sin detener el flujo del tráfico, tomándose su tiempo para esperar de manera segura un espacio libre antes de dar marcha atrás al salir.",
     "fixParkingSolution": "Realinear el estacionamiento en la calle nuevamente a espacios diagonales tradicionales e intuitivos de entrada directa, eliminando los atascos de tráfico, garantizando un estacionamiento accesible para conductores de todas las edades y niveles de experiencia, e invitando a los visitantes a regresar a Old Town.",
     "fixLanesTitle": "Planificar con Anticipación: Gestionar el Crecimiento y Restaurar la Capacidad del Corredor",
-    "fixLanesProblem": "Reducir Hollister Avenue a dos carriles creó embotellamientos al estilo de Los Ángeles, mientras que el trazado desordenado de las calles comprometió la seguridad de conductores, repartidores y ciclistas por igual. Las calles residenciales estrechas circundantes han sufrido una afluencia de tráfico de atajo y un aumento de los accidentes. Aunque el volumen general de tráfico a lo largo del corredor ha disminuido, los retrasos en los viajes han aumentado. El impacto económico ha sido devastador: los comerciantes locales informan pérdidas de ingresos que oscilan entre el 15% y el 70%, con cero alivio o recuperación tras la finalización de las rotondas.",
-    "fixLanesSolution": "Con 3–4 desarrollos habitacionales importantes planificados para Old Town—que ya es la zona más densamente poblada de la ciudad—nuestra infraestructura debe adaptarse para satisfacer la creciente demanda en lugar de crear cuellos de botella artificiales.<ul class=\"action-list\"><li><strong>Restaurar Carriles de Circulación Activos:</strong> Reestablecer cuatro carriles de circulación (9 pies de ancho) a lo largo del corredor para despejar los embotellamientos, restaurar la capacidad total de tráfico y eliminar a los conductores que acortan camino por calles residenciales tranquilas.</li><li><strong>Integrar Infraestructura de Bicicletas Segura:</strong> Implementar carriles dedicados y claramente señalizados para bicicletas para que los ciclistas, viajeros cotidianos y vehículos de reparto puedan navegar por el corredor de manera segura junto con el tráfico vehicular.</li><li><strong>Implementar una Aplicación de Estacionamiento Constante:</strong> Iniciar la aplicación activa del estacionamiento en bloques comerciales y residenciales para proteger la disponibilidad de estacionamiento para los residentes locales y los pequeños negocios.</li></ul>",
+    "fixLanesProblem": "Reducir Hollister Avenue a dos carriles creó embotellamientos al estilo de Los Ángeles, mientras que el trazado desordenado de las calles comprometió la seguridad de conductores, repartidores y ciclistas por igual. Las calles residenciales estrechas circundantes han sufrido una afluencia de tráfico de atajo de entre el 17% y el 43% y un aumento de los accidentes. Aunque el volumen general de tráfico a lo largo del corredor ha disminuido, los retrasos en los viajes han aumentado.<br><br><strong>El impacto económico ha sido devastador: los comerciantes locales informan pérdidas de ingresos que oscilan entre el 15% y el 70%, con cero alivio o recuperación tras la finalización de las rotondas.</strong>",
+    "fixLanesSolution": "Con potencialmente 3+ desarrollos habitacionales importantes planificados en o cerca de Old Town—que ya es la zona más densamente poblada de la ciudad—nuestra infraestructura debe adaptarse para satisfacer la creciente demanda en lugar de crear cuellos de botella artificiales.<ul class=\"action-list\"><li><strong>Restaurar Carriles de Circulación Activos:</strong> Reestablecer cuatro carriles de circulación (9 pies de ancho) a lo largo del corredor para despejar los embotellamientos, restaurar la capacidad total de tráfico y eliminar a los conductores que acortan camino por calles residenciales tranquilas.</li><li><strong>Integrar Infraestructura de Bicicletas Segura:</strong> Implementar carriles dedicados y claramente señalizados para bicicletas para que los ciclistas, viajeros cotidianos y vehículos de reparto puedan navegar por el corredor de manera segura junto con el tráfico vehicular.</li><li><strong>Implementar una Aplicación de Estacionamiento Constante:</strong> Iniciar la aplicación activa del estacionamiento en bloques comerciales y residenciales para proteger la disponibilidad de estacionamiento para los residentes locales y los pequeños negocios.</li></ul>",
     "fixMaintenanceTitle": "Mantener la Propiedad de la Ciudad y Proteger Nuestro Medio Ambiente",
     "fixMaintenanceProblem": "Mantenimiento de la Infraestructura y Peligros Ambientales:<ul class=\"action-list\"><li><strong>Escombros y Escorrentía de Drenajes Pluviales:</strong> Los topes de estacionamiento en reversa bloquean el paso de las barredoras mecánicas de calles, permitiendo que la basura y los escombros peligrosos de la carretera se acumulen y fluyan hacia los drenajes pluviales locales y las aguas costeras.</li><li><strong>Mantenimiento de Aceras Descuidado:</strong> La limpieza y el lavado a presión poco frecuentes en los caminos públicos de la ciudad dejan los bloques comerciales con un aspecto descuidado, lo que resta atractivo al vecindario.</li><li><strong>Deficiencias en los Servicios Públicos:</strong> Los contenedores de basura desbordados a lo largo de los senderos peatonales provocan un exceso de basura, lo que indica una falta de mantenimiento municipal constante en áreas de alta densidad.</li></ul>",
     "fixMaintenanceSolution": "La infraestructura de la ciudad a lo largo de Hollister Avenue requiere un mantenimiento constante y proactivo para mantener Old Town limpio, seguro y acogedor para los residentes y visitantes por igual:<ul class=\"action-list\"><li><strong>Eliminar los Topes de Estacionamiento en Reversa:</strong> Eliminar estas barreras permite que las barredoras de calles limpien adecuadamente las líneas de los bordillos, evitando que los desechos dañinos y la escorrentía fluyan hacia los drenajes pluviales locales y lleguen a nuestros océanos.</li><li><strong>Lavado a Presión Regular de Aceras:</strong> La ciudad es propietaria de las aceras públicas y debe cumplir con su responsabilidad de mantenerlas programando limpiezas profundas y lavados a presión de manera regular.</li><li><strong>Aumentar la Recolección de Basura:</strong> Ampliar el programa de recolección de los contenedores de basura públicos para evitar desbordamientos, reducir la basura y mantener limpios los corredores comerciales.</li></ul>"
@@ -104,7 +105,12 @@
     "submitBtn": "Enviar y Unirse de Forma Segura",
     "successMsg": "¡Gracias! Su información ha sido cifrada y almacenada de forma segura. ¡Bienvenido a la campaña!",
     "yardSignTitle": "Obtenga Su Letrero de Jardín",
-    "yardSignDesc": "Muestre su apoyo en su vecindario. ¡Escanee el código para rastrear la entrega de su letrero!"
+    "yardSignDesc": "Muestre su apoyo en su vecindario. Letreros de jardín disponibles en la tienda de Phebe, CopyRight Printing, 5708 Hollister Ave. Estacionamiento privado en la parte trasera de la tienda.",
+    "yardSignNotice": "Hemos visto vandalismo reciente en nuestros letreros de campaña en todo el distrito. Aunque esto es frustrante, insto firmemente a todos mis simpatizantes a no tomar represalias ni participar en conductas similares. Siempre lideraremos con el ejemplo, respetaremos a nuestros vecinos y nunca nos doblegaremos ante las acciones poco éticas de otros.",
+    "supportTitle": "VISTE TU APOYO",
+    "supportSubtitle": "Ayude a impulsar nuestro alcance comunitario en el Distrito 2.",
+    "supportPerks": "¡Contribuya con $20+ y reciba una camiseta gratis, $25+ y reciba una gorra gratis, o contribuya con $40+ y reciba ambas!",
+    "supportCta": "CONTRIBUIR AHORA"
   },
   "endorsements": {
     "title": "Únase a los Vecinos que Apoyan a Phebe",
@@ -113,10 +119,10 @@
     "quote2Text": "Durante años, Phebe se ha presentado para ayudar a Goleta como voluntaria. Ella escucha, se preocupa y actúa.",
     "quote2Author": "— Grace W., Residente de hace 20 Años",
     "quote3Text": "Necesitamos a alguien en el concejo municipal que ponga los problemas locales de sentido común por encima de la política. Phebe es esa persona.",
-    "quote3Author": "— David K., Líder Comunitario"
+    "quote3Author": "— Robin C., Líder Comunitario"
   },
   "footer": {
-    "compliance": "Pagado por Phebe Mansur para el Concejo Municipal de Goleta D2 2026. FPPC ID pendiente.",
+    "compliance": "Pagado por Phebe Mansur para el Concejo Municipal de Goleta D2 2026. FPPC# 1496535.",
     "copyright": "© 2026 Phebe Mansur para el Concejo Municipal. Todos los derechos reservados.",
     "privacy": "Política de Privacidad",
     "terms": "Términos de Servicio",
@@ -144,14 +150,25 @@
   },
   "news": {
     "title": "Noticias y Destacados de Negocios de Old Town",
-    "p1": "<a href=\"https://www.independent.com/2026/08/17/jonesys-is-closing/?utm_source=facebook&utm_medium=social&utm_campaign=Food-Drink&utm_content=Jonesys-closing&utm_gen=utmdc\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"news-link\">Jonesy's Fried Chicken</a> es la empresa más reciente en anunciar su cierre, y nos entristece profundamente ver que un restaurante tan vibrante deja nuestro vecindario. Marca el cuarto negocio local en cerrar sus puertas citando directamente el estrechamiento de Hollister Avenue como un factor decisivo.",
-    "p2": "El rediseño del corredor ha creado una tormenta perfecta para los comerciantes locales: congestión de tráfico, estacionamiento diagonal en reversa confuso, giros a la izquierda restringidos e incluso boicots de clientes destinados a enviar un mensaje al Ayuntamiento. Aunque bien intencionados, estos boicots castigan inadvertidamente a las mismas pequeñas empresas que luchan por sobrevivir. Mi propio negocio también habría enfrentado el cierre si no nos hubiéramos adaptado al agregar servicios de verificación de antecedentes y huellas dactilares Live Scan junto con el apoyo de nuestros clientes notablemente leales.",
+    "p1": "<a href=\"https://www.independent.com/2026/08/17/jonesys-is-closing/?utm_source=facebook&utm_medium=social&utm_campaign=Food-Drink&utm_content=Jonesys-closing&utm_gen=utmdc\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"news-link\">Jonesy's Fried Chicken</a> es la empresa más reciente en anunciar su cierre, y nos entristece profundamente ver que un restaurante tan vibrante deja nuestro vecindario. Marca el quinto negocio local en cerrar sus puertas citando directamente el estrechamiento de Hollister Avenue como un factor decisivo.",
+    "p2": "El rediseño del corredor ha creado una tormenta perfecta para los comerciantes locales: congestión de tráfico, estacionamiento diagonal en reversa confuso, giros a la izquierda restringidos e incluso boicots de clientes destinados a enviar un mensaje al Ayuntamiento. Aunque bien intencionados, estos boicots castigan inadvertidamente a las mismas pequeñas empresas que luchan por sobrevivir. Mi propio negocio también habría enfrentado el cierre, sufriendo una disminución del 57% en los ingresos, si no nos hubiéramos adaptado al agregar servicios de verificación de antecedentes y huellas dactilares Live Scan junto con el apoyo de nuestros clientes notablemente leales.",
     "p3": "Como su representante electa, llevaré esta realidad de primera mano al Ayuntamiento y continué abogando ferozmente por nuestras pequeñas empresas, nuestros residentes y la vitalidad de Old Town Goleta.",
     "closedTitle": "Negocios Cerrados<br><span class=\"closed-subtitle\">lista parcial</span>",
     "floral": "Goleta Floral",
     "bbq": "Goodland BBQ",
     "joanna": "La Tía Joanna",
+    "gelato": "Happy Gelato",
     "newTitle": "Nuevos Negocios Locales",
     "eddiesGrill": "Eddie's Grill"
+  },
+  "contributeModal": {
+    "title": "Contribuya a la Campaña de Phebe",
+    "subtitle": "Apoye nuestro movimiento comunitario para el Concejo Municipal de Goleta, Distrito 2.",
+    "perksTitle": "BENEFICIOS DE APOYO DE EDICIÓN LIMITADA",
+    "perk1": "• Contribución de $20+ ───► Camiseta Gratis \"Life is Better\"",
+    "perk2": "• Contribución de $25+ ───► Gorra de Campaña Gratis",
+    "perk3": "• Contribución de $40+ ───► ¡Combo Gratis de Camiseta y Gorra! ✨",
+    "instruction": "Escanee con la cámara de su teléfono o la aplicación de PayPal para donar directamente a la campaña.",
+    "scanBadge": "Escanear con PayPal"
   }
 }

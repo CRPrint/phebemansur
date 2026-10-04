@@ -53,6 +53,11 @@
           <li><a href="#pillars" class="nav-link" data-translate="nav.pillars">Why Phebe</a></li>
           <li><a href="#get-involved" class="nav-link" data-translate="nav.getInvolved">Get Involved</a></li>
           <li>
+            <button type="button" id="contribute-btn" class="nav-contribute-btn btn-open-contribute" aria-haspopup="dialog" aria-controls="contribute-modal">
+              <span data-translate="nav.contribute">Contribute</span>
+            </button>
+          </li>
+          <li>
             <button id="lang-toggle" class="btn btn-outline" style="min-height: 40px; padding: 0.25rem 1rem;" data-translate="nav.toggleLang" aria-label="Switch Language">
               Español
             </button>
@@ -77,6 +82,7 @@
         <p class="hero-subtitle" data-translate="hero.subtitle">Old Town resident, small business owner, and community volunteer running for Goleta City Council, District 2.</p>
         <div class="hero-ctas">
           <a href="#get-involved" class="btn btn-primary" data-translate="hero.ctaJoin">Join Our Campaign</a>
+          <button type="button" id="hero-contribute-btn" class="btn btn-accent hero-contribute-btn btn-open-contribute" aria-haspopup="dialog" aria-controls="contribute-modal" data-translate="nav.contribute">Contribute</button>
           <a href="https://docs.google.com/forms/d/e/1FAIpQLSfUFqI-wFoRW_uUapaZQAfkJigTcqC6_kVbzWnWJGKAh4MOtw/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer" class="btn btn-outline" data-translate="hero.ctaSurvey">Take Community Survey</a>
           <a href="#story" class="btn btn-secondary" data-translate="hero.ctaStory">Read Phebe's Story</a>
         </div>
@@ -99,20 +105,27 @@
         <!-- Problem Card -->
         <div class="problem-card">
           <h3 data-translate="actionPlan.problemLabel">The Problem</h3>
-          <p id="dynamic-problem-text" data-translate="actionPlan.fixTurnsProblem">Eliminating left-hand turns for 34 local businesses creates severe customer inconvenience, actively driving shoppers away from Old Town’s independent merchants.<br><br>Making matters worse, <strong>the city’s redesign applied these restrictions selectively:</strong> the only permitted left turns along the corridor lead into city-owned property, the Goleta Union School District, Santa Cruz Market, and two corporate franchise locations.<br><br>This leaves 34 local, independent business owners stranded, inaccessible, and at a severe economic disadvantage.</p>
+          <p id="dynamic-problem-text" data-translate="actionPlan.fixLanesProblem">Narrowing Hollister Avenue down to two lanes created LA-style gridlock, while haphazard restriping compromised safety for motorists, delivery drivers, and cyclists alike. Surrounding narrow residential streets have suffered an influx of cut-through traffic between 17-43% and an uptick in accidents. Even though overall traffic volume along the corridor has declined, travel delays have actually increased.<br><br><strong>The economic fallout has been devastating: local merchants report revenue losses ranging from 15% to 70%, with zero relief or recovery following the completion of the roundabouts.</strong></p>
         </div>
 
         <!-- Solutions / Tabs Module -->
         <div class="solutions-module">
           <div class="tabs-nav" role="tablist" aria-label="Action Plan Fixes">
-            <button class="tab-btn active" data-tab="tab-turns" role="tab" aria-selected="true" aria-controls="tab-turns" data-translate="actionPlan.tabTurns">Left-Hand Turns</button>
+            <button class="tab-btn active" data-tab="tab-lanes" role="tab" aria-selected="true" aria-controls="tab-lanes" data-translate="actionPlan.tabLanes">Planning Ahead</button>
+            <button class="tab-btn" data-tab="tab-turns" role="tab" aria-selected="false" aria-controls="tab-turns" data-translate="actionPlan.tabTurns">Left-Hand Turns</button>
             <button class="tab-btn" data-tab="tab-bumps" role="tab" aria-selected="false" aria-controls="tab-bumps" data-translate="actionPlan.tabBumps">Removing Median Bumps</button>
             <button class="tab-btn" data-tab="tab-parking" role="tab" aria-selected="false" aria-controls="tab-parking" data-translate="actionPlan.tabParking">Parking Realignment</button>
-            <button class="tab-btn" data-tab="tab-lanes" role="tab" aria-selected="false" aria-controls="tab-lanes" data-translate="actionPlan.tabLanes">Planning Ahead</button>
             <button class="tab-btn" data-tab="tab-maintenance" role="tab" aria-selected="false" aria-controls="tab-maintenance" data-translate="actionPlan.tabMaintenance">Infrastructure & Environment</button>
           </div>
 
-          <div class="tab-panel active" id="tab-turns" role="tabpanel" aria-labelledby="tab-turns">
+          <div class="tab-panel active" id="tab-lanes" role="tabpanel" aria-labelledby="tab-lanes">
+            <h3 class="tab-panel-title" data-translate="actionPlan.fixLanesTitle">Planning Ahead: Managing Growth & Restoring Corridor Capacity</h3>
+            <div class="tab-panel-text" data-translate="actionPlan.fixLanesSolution">
+              With potentially 3+ major housing developments planned in or near Old Town—already the most densely populated area in the city—our infrastructure must adapt to meet rising demand rather than creating artificial bottlenecks.<ul class="action-list"><li><strong>Restore Active Travel Lanes:</strong> Re-establish four travel lanes (9-foot width) along the corridor to clear gridlock, restore full traffic capacity, and eliminate drivers cutting through quiet neighborhood streets.</li><li><strong>Integrate Safe Bike Infrastructure:</strong> Implement dedicated, clearly marked bike lanes so cyclists, commuters, and delivery vehicles can navigate the corridor safely alongside vehicle traffic.</li><li><strong>Implement Consistent Parking Enforcement:</strong> Begin active parking enforcement along commercial and residential blocks to protect parking availability for local residents and small businesses.</li></ul>
+            </div>
+          </div>
+
+          <div class="tab-panel" id="tab-turns" role="tabpanel" aria-labelledby="tab-turns">
             <h3 class="tab-panel-title" data-translate="actionPlan.fixTurnsTitle">Left-Hand Turns</h3>
             <div class="tab-panel-text">
               <p><strong>Solution:</strong> <span data-translate="actionPlan.fixTurnsSolution">Immediately restore equal, accessible left-turn access for all local businesses and cross-streets, eliminating unfair city perks, reconnecting our neighborhood, and welcoming shoppers back into Old Town.</span></p>
@@ -130,13 +143,6 @@
             <h3 class="tab-panel-title" data-translate="actionPlan.fixParkingTitle">Parking Realignment</h3>
             <div class="tab-panel-text">
                 <p><strong>Solution:</strong> <span data-translate="actionPlan.fixParkingSolution">Realign street parking back to intuitive, welcoming, pull-in diagonal spots—eliminating traffic backups, ensuring accessible parking for drivers of all ages and experience levels, and inviting visitors back into Old Town.</span></p>
-            </div>
-          </div>
-
-          <div class="tab-panel" id="tab-lanes" role="tabpanel" aria-labelledby="tab-lanes">
-            <h3 class="tab-panel-title" data-translate="actionPlan.fixLanesTitle">Planning Ahead: Managing Growth & Restoring Corridor Capacity</h3>
-            <div class="tab-panel-text" data-translate="actionPlan.fixLanesSolution">
-              With 3–4 major housing developments planned for Old Town—already the most densely populated area in the city—our infrastructure must adapt to meet rising demand rather than creating artificial bottlenecks.<ul class="action-list"><li><strong>Restore Active Travel Lanes:</strong> Re-establish four travel lanes (9-foot width) along the corridor to clear gridlock, restore full traffic capacity, and eliminate drivers cutting through quiet neighborhood streets.</li><li><strong>Integrate Safe Bike Infrastructure:</strong> Implement dedicated, clearly marked bike lanes so cyclists, commuters, and delivery vehicles can navigate the corridor safely alongside vehicle traffic.</li><li><strong>Implement Consistent Parking Enforcement:</strong> Begin active parking enforcement along commercial and residential blocks to protect parking availability for local residents and small businesses.</li></ul>
             </div>
           </div>
 
@@ -327,49 +333,69 @@
   <!-- Get Involved / Endorsement Strip -->
   <section class="involved-section bg-light" id="get-involved">
     <div class="container involved-split">
-      <!-- Signup Form -->
-      <div class="involved-form-card">
-        <h2 data-translate="getInvolved.title">Get Involved Today</h2>
-        <p data-translate="getInvolved.subtitle">Join your neighbors in supporting Phebe and help build a stronger Goleta.</p>
-        
-        <form id="involved-form" action="https://formspree.io/f/mbgrpzqa" method="POST" novalidate>
-          <div class="form-group">
-            <label for="form-name" class="form-label" data-translate="getInvolved.formName">Full Name</label>
-            <input type="text" id="form-name" name="name" class="form-input" placeholder="Full Name" required>
+      <!-- Left Column: Form & Yard Sign Promo -->
+      <div class="involved-left-col">
+        <!-- Signup Form -->
+        <div class="involved-form-card">
+          <h2 data-translate="getInvolved.title">Get Involved Today</h2>
+          <p data-translate="getInvolved.subtitle">Join your neighbors in supporting Phebe and help build a stronger Goleta.</p>
+          
+          <form id="involved-form" action="https://formspree.io/f/mbgrpzqa" method="POST" novalidate>
+            <div class="form-group">
+              <label for="form-name" class="form-label" data-translate="getInvolved.formName">Full Name</label>
+              <input type="text" id="form-name" name="name" class="form-input" placeholder="Full Name" required>
+            </div>
+            <div class="form-group">
+              <label for="form-email" class="form-label" data-translate="getInvolved.formEmail">Email Address</label>
+              <input type="email" id="form-email" name="email" class="form-input" placeholder="Email Address" required>
+            </div>
+            <div class="form-group">
+              <label for="form-zip" class="form-label" data-translate="getInvolved.formZip">Zip Code</label>
+              <input type="text" id="form-zip" name="zip" class="form-input" placeholder="Zip Code" pattern="[0-9]{5}" required>
+            </div>
+            
+            <div class="checkbox-group">
+              <label class="checkbox-label" for="check-sign">
+                <input type="checkbox" id="check-sign" name="post_yard_sign" class="checkbox-input">
+                <span data-translate="getInvolved.checkSign">Post a Yard Sign</span>
+              </label>
+              <label class="checkbox-label" for="check-volunteer">
+                <input type="checkbox" id="check-volunteer" name="volunteer_to_walk" class="checkbox-input">
+                <span data-translate="getInvolved.checkVolunteer">Volunteer to Walk with Phebe</span>
+              </label>
+              <label class="checkbox-label" for="check-endorse">
+                <input type="checkbox" id="check-endorse" name="endorse_phebe" class="checkbox-input">
+                <span data-translate="getInvolved.checkEndorse">Endorse Phebe Mansur</span>
+              </label>
+            </div>
+
+            <button type="submit" class="btn btn-primary submit-btn" data-translate="getInvolved.submitBtn">Submit & Securely Join</button>
+          </form>
+
+          <div id="form-success" class="form-success-container">
+            <p data-translate="getInvolved.successMsg">Thank you! Your information has been encrypted and securely stored. Welcome to the campaign!</p>
           </div>
-          <div class="form-group">
-            <label for="form-email" class="form-label" data-translate="getInvolved.formEmail">Email Address</label>
-            <input type="email" id="form-email" name="email" class="form-input" placeholder="Email Address" required>
-          </div>
-          <div class="form-group">
-            <label for="form-zip" class="form-label" data-translate="getInvolved.formZip">Zip Code</label>
-            <input type="text" id="form-zip" name="zip" class="form-input" placeholder="Zip Code" pattern="[0-9]{5}" required>
+        </div>
+
+        <!-- Yard Sign Promo Card -->
+        <div class="yard-sign-promo-card">
+          <div class="yard-sign-image-wrapper">
+            <img 
+              src="./assets/images/Phebe-yard-sign-24x16-in.jpg" 
+              alt="Phebe Mansur for Goleta City Council District 2 Yard Sign" 
+              class="yard-sign-preview-img"
+            />
           </div>
           
-          <div class="checkbox-group">
-            <label class="checkbox-label" for="check-sign">
-              <input type="checkbox" id="check-sign" name="post_yard_sign" class="checkbox-input">
-              <span data-translate="getInvolved.checkSign">Post a Yard Sign</span>
-            </label>
-            <label class="checkbox-label" for="check-volunteer">
-              <input type="checkbox" id="check-volunteer" name="volunteer_to_walk" class="checkbox-input">
-              <span data-translate="getInvolved.checkVolunteer">Volunteer to Walk with Phebe</span>
-            </label>
-            <label class="checkbox-label" for="check-endorse">
-              <input type="checkbox" id="check-endorse" name="endorse_phebe" class="checkbox-input">
-              <span data-translate="getInvolved.checkEndorse">Endorse Phebe Mansur</span>
-            </label>
+          <div class="yard-sign-promo-content">
+            <h3 data-translate="getInvolved.yardSignTitle">Get Your Yard Sign</h3>
+            <p data-translate="getInvolved.yardSignDesc">Show your support in your neighborhood. Yard signs available at Phebe's store CopyRight Printing 5708 Hollister Ave. Private parking at rear of store.</p>
+            <p class="yard-sign-notice" data-translate="getInvolved.yardSignNotice">We have seen recent vandalism of our campaign signs across the district. While this is frustrating, I strongly urge all of my supporters not to retaliate or engage in similar behavior. We will always lead by example, respect our neighbors, and never bend to the unethical actions of others.</p>
           </div>
-
-          <button type="submit" class="btn btn-primary submit-btn" data-translate="getInvolved.submitBtn">Submit & Securely Join</button>
-        </form>
-
-        <div id="form-success" class="form-success-container">
-          <p data-translate="getInvolved.successMsg">Thank you! Your information has been encrypted and securely stored. Welcome to the campaign!</p>
         </div>
       </div>
 
-      <!-- Endorsements and Yard Sign Box -->
+      <!-- Endorsements and Campaign Merch Sidebar -->
       <div class="involved-sidebar">
         <div class="endorsements-strip">
           <h3 data-translate="endorsements.title">Join Your Neighbors Supporting Phebe</h3>
@@ -390,20 +416,25 @@
           </div>
         </div>
 
-        <!-- Yard Sign Promo Card -->
-        <div class="yard-sign-promo-card">
-          <div class="yard-sign-image-wrapper">
-            <img 
-              src="./assets/images/Phebe-yard-sign-24x16-in.jpg" 
-              alt="Phebe Mansur for Goleta City Council District 2 Yard Sign" 
-              class="yard-sign-preview-img"
-            />
-          </div>
-          
-          <div class="yard-sign-promo-content">
-            <h3 data-translate="getInvolved.yardSignTitle">Get Your Yard Sign</h3>
-            <p data-translate="getInvolved.yardSignDesc">Show your support in your neighborhood. Scan the code to track your sign delivery!</p>
-            <p class="yard-sign-notice" data-translate="getInvolved.yardSignNotice">We have seen recent vandalism of our campaign signs across the district. While this is frustrating, I strongly urge all of my supporters not to retaliate or engage in similar behavior. We will always lead by example, respect our neighbors, and never bend to the unethical actions of others.</p>
+        <!-- Wear Your Support / Campaign Merch Card -->
+        <div class="support-campaign-card">
+          <div class="support-campaign-content">
+            <h3 class="support-campaign-title" data-translate="getInvolved.supportTitle">WEAR YOUR SUPPORT</h3>
+            <p class="support-campaign-subtitle" data-translate="getInvolved.supportSubtitle">Help fuel our grassroots outreach across District 2.</p>
+            <div class="support-merch-image-wrapper">
+              <img 
+                src="./assets/images/life-is-better-with-4-lanes-shirt-hat.jpg" 
+                alt="Life is better with 4 lanes campaign t-shirt and embroidered dad hat" 
+                class="support-merch-preview-img"
+                width="720"
+                height="845"
+                loading="lazy"
+              />
+            </div>
+            <p class="support-campaign-perks" data-translate="getInvolved.supportPerks">Contribute $20+ and receive a free T-Shirt, $25+ and receive a free Hat, or $40+ contribute and receive both!</p>
+            <button type="button" id="sidebar-contribute-btn" class="btn btn-accent support-campaign-btn btn-open-contribute" aria-haspopup="dialog" aria-controls="contribute-modal">
+              <span data-translate="getInvolved.supportCta">CONTRIBUTE NOW</span>
+            </button>
           </div>
         </div>
       </div>
@@ -461,6 +492,51 @@
         <p style="font-size: 0.8rem; color: var(--text-secondary); text-align: center; margin-top: 8px;">
           Verification complies with Rule 11 Licensing Protocol.
         </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contribute Modal Overlay (Rule 9 & 14 Compliance) -->
+  <div class="modal-overlay" id="contribute-modal" role="dialog" aria-labelledby="contribute-modal-title" aria-modal="true" style="display: none; position: fixed; inset: 0; z-index: 9999;">
+    <div class="modal-card contribute-modal-card">
+      <div class="modal-header">
+        <h3 id="contribute-modal-title" data-translate="contributeModal.title">Contribute to Phebe's Campaign</h3>
+        <button class="modal-close-btn" id="close-contribute-modal" aria-label="Close contribute modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p class="contribute-modal-subtitle" data-translate="contributeModal.subtitle" style="text-align: center; margin: 0; color: var(--text-secondary);">
+          Support our grassroots movement for Goleta City Council, District 2.
+        </p>
+
+        <!-- High-Contrast Supporter Perks Badge -->
+        <div class="contribute-perks-badge">
+          <div class="perks-badge-title" data-translate="contributeModal.perksTitle">LIMITED EDITION SUPPORTER PERKS</div>
+          <ul class="perks-badge-list">
+            <li data-translate="contributeModal.perk1">• $20+ Contribution ───► Free "Life is Better" T-Shirt</li>
+            <li data-translate="contributeModal.perk2">• $25+ Contribution ───► Free Campaign Hat</li>
+            <li data-translate="contributeModal.perk3">• $40+ Contribution ───► Free T-Shirt &amp; Hat Combo! ✨</li>
+          </ul>
+        </div>
+
+        <!-- Constrained QR Code Box -->
+        <div class="contribute-qr-wrapper">
+          <img 
+            src="./assets/images/qrcode.png" 
+            alt="PayPal QR Code to donate to Phebe Mansur campaign" 
+            class="contribute-qr-img" 
+            width="180" 
+            height="180"
+            style="max-width: 180px; max-height: 180px; width: 100%; height: auto; object-fit: contain; display: block; margin: 0 auto;"
+          />
+        </div>
+
+        <p class="contribute-instruction" data-translate="contributeModal.instruction">
+          Scan with your smartphone camera or the PayPal app to donate directly to the campaign.
+        </p>
+
+        <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary contribute-direct-btn">
+          <span data-translate="contributeModal.scanBadge">Donate via PayPal</span>
+        </a>
       </div>
     </div>
   </div>
