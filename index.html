@@ -11,7 +11,7 @@
   <meta http-equiv="Expires" content="0">
   
   <!-- Preload theme values -->
-  <link rel="stylesheet" href="./css/style.css?v=20260920-2315">
+  <link rel="stylesheet" href="./css/style.css?v=20261005-0816">
   <style>
     /* Critical Modal Overlay Reset */
     .modal-overlay {
@@ -34,6 +34,27 @@
     }
     .modal-overlay.active {
       display: flex !important;
+    }
+
+    /* Enforce 50%/50% Column Layout on Last Section (#get-involved) */
+    .involved-split {
+      display: grid !important;
+      grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+      gap: var(--spacing-lg) !important;
+      align-items: start !important;
+      width: 100% !important;
+      box-sizing: border-box !important;
+    }
+    .involved-left-col,
+    .involved-sidebar {
+      min-width: 0 !important;
+      width: 100% !important;
+      box-sizing: border-box !important;
+    }
+    @media (max-width: 768px) {
+      .involved-split {
+        grid-template-columns: 1fr !important;
+      }
     }
   </style>
 </head>
@@ -435,6 +456,7 @@
             <button type="button" id="sidebar-contribute-btn" class="btn btn-accent support-campaign-btn btn-open-contribute" aria-haspopup="dialog" aria-controls="contribute-modal">
               <span data-translate="getInvolved.supportCta">CONTRIBUTE NOW</span>
             </button>
+            <p class="support-fppc-notice" data-translate="getInvolved.supportFppc">Paid for by Phebe Mansur for Goleta City Council District 2 2026 • FPPC# 1496535</p>
           </div>
         </div>
       </div>
@@ -659,6 +681,6 @@
     });
   </script>
 
-  <script src="./js/app.js?v=20260920-2315"></script>
+  <script src="./js/app.js?v=20261005-0816"></script>
 </body>
 </html>

@@ -10,7 +10,7 @@
   <meta http-equiv="Pragma" content="no-cache">
   <meta http-equiv="Expires" content="0">
   
-  <link rel="stylesheet" href="./css/style.css?v=20260920-2315">
+  <link rel="stylesheet" href="./css/style.css?v=20261005-0816">
   <style>
     /* Critical Modal Overlay Reset */
     .modal-overlay {
@@ -51,6 +51,11 @@
           <li><a href="./index.html#action-plan" class="nav-link" data-translate="nav.actionPlan">Hollister Action Plan</a></li>
           <li><a href="./index.html#pillars" class="nav-link" data-translate="nav.pillars">Why Phebe</a></li>
           <li><a href="./index.html#get-involved" class="nav-link" data-translate="nav.getInvolved">Get Involved</a></li>
+          <li>
+            <button type="button" id="contribute-btn" class="nav-contribute-btn btn-open-contribute" aria-haspopup="dialog" aria-controls="contribute-modal">
+              <span data-translate="nav.contribute">Contribute</span>
+            </button>
+          </li>
           <li>
             <button id="lang-toggle" class="btn btn-outline" style="min-height: 40px; padding: 0.25rem 1rem;" data-translate="nav.toggleLang" aria-label="Switch Language">
               Español
@@ -150,6 +155,51 @@
     </div>
   </div>
 
-  <script src="./js/app.js?v=20260920-2315"></script>
+  <!-- Contribute Modal Overlay (Rule 9 & 14 Compliance) -->
+  <div class="modal-overlay" id="contribute-modal" role="dialog" aria-labelledby="contribute-modal-title" aria-modal="true" style="display: none; position: fixed; inset: 0; z-index: 9999;">
+    <div class="modal-card contribute-modal-card">
+      <div class="modal-header">
+        <h3 id="contribute-modal-title" data-translate="contributeModal.title">Contribute to Phebe's Campaign</h3>
+        <button class="modal-close-btn" id="close-contribute-modal" aria-label="Close contribute modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p class="contribute-modal-subtitle" data-translate="contributeModal.subtitle" style="text-align: center; margin: 0; color: var(--text-secondary);">
+          Support our grassroots movement for Goleta City Council, District 2.
+        </p>
+
+        <!-- High-Contrast Supporter Perks Badge -->
+        <div class="contribute-perks-badge">
+          <div class="perks-badge-title" data-translate="contributeModal.perksTitle">LIMITED EDITION SUPPORTER PERKS</div>
+          <ul class="perks-badge-list">
+            <li data-translate="contributeModal.perk1">• $20+ Contribution ───► Free "Life is Better" T-Shirt</li>
+            <li data-translate="contributeModal.perk2">• $25+ Contribution ───► Free Campaign Hat</li>
+            <li data-translate="contributeModal.perk3">• $40+ Contribution ───► Free T-Shirt &amp; Hat Combo! ✨</li>
+          </ul>
+        </div>
+
+        <!-- Constrained QR Code Box -->
+        <div class="contribute-qr-wrapper">
+          <img 
+            src="./assets/images/qrcode.png" 
+            alt="PayPal QR Code to donate to Phebe Mansur campaign" 
+            class="contribute-qr-img" 
+            width="180" 
+            height="180"
+            style="max-width: 180px; max-height: 180px; width: 100%; height: auto; object-fit: contain; display: block; margin: 0 auto;"
+          />
+        </div>
+
+        <p class="contribute-instruction" data-translate="contributeModal.instruction">
+          Scan with your smartphone camera or the PayPal app to donate directly to the campaign.
+        </p>
+
+        <a href="https://www.paypal.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary contribute-direct-btn">
+          <span data-translate="contributeModal.scanBadge">Donate via PayPal</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/app.js?v=20261005-0816"></script>
 </body>
 </html>
